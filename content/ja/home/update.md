@@ -52,10 +52,12 @@ subtitle = ""
 
 <!-- - :sparkles: A new member joined on April 16th: Jovana Panic. Welcome to Osaka, Japan! -->
 <!-- - :sparkles: New members joined on April 12th: Yuuki Kusu, Naoya Fukui, Yuta Murakami, Kim Hakmin, and Ryota Manaka. Enjoy your life with us! -->
+- :brain: 2026年4月6日にJST Top ASPIREのキックオフシンポジウムを大阪大学で開催します！ [[link]](https://www.deepsensing.org/events/symp_2026).
 - :sparkles: 2026年4月1日付で八木 聡明先生（特任准教授）、José Reinaldoさん（特任研究員）、田中 利明さん（博士後期課程）、橋田 大雅さん（博士後期課程）、岩本 圭一郎さん（博士前期課程）、Li Hanさん（博士前期課程）が新たに加わりました。ようこそ！
-- :tada: 3件の論文がCVPR2026に採択されました :tada:
+- :tada: 4件の論文がCVPR2026に採択されました :tada:
   - "BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment" by Risa Shinoda, Kaede Shiohara, Nakamasa Inoue, Kuniaki Saito, Hiroaki Santo, and Fumio Okura.
   - "Cell-Type Prototype-Informed Neural Network for Gene Expression Estimation from Pathology Images" by Kazuya Nishimura, Ryoma Bise, Shinnosuke Matsuo, Haruka Hirose, and Yasuhiro Kojima.
   - "EMMA: Concept Erasure Benchmark with Comprehensive Semantic Metrics and Diverse Categories" by Lu Wei, Yuta Nakashima, and Noa Garcia.
+  - "Coded-E2LF: Coded Aperture Light Field Imaging from Events" by Tomoya Tsuchida, Keita Takahashi, Chihiro Tsutake, Toshiaki Fujii and Hajime Nagahara.
 - :tada: 1件の論文がICLR2026に採択されました :tada:
-  - "Unified Facial Action Representation Learning for Micro-Expression Analysis" by Yicheng Deng, Hideaki Hayashi, and Hajime Nagahara.
+  - "From Pixels to Semantics: Unified Facial Action Representation Learning for Micro-Expression Analysis" by Yicheng Deng, Hideaki Hayashi, and Hajime Nagahara.
