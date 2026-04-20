@@ -52,6 +52,7 @@ subtitle = ""
 
 <!-- - :sparkles: A new member joined on April 16th: Jovana Panic. Welcome to Osaka, Japan! -->
 <!-- - :sparkles: New members joined on April 12th: Yuuki Kusu, Naoya Fukui, Yuta Murakami, Kim Hakmin, and Ryota Manaka. Enjoy your life with us! -->
+- :trophy: 西村 和也さんの九大との共同研究がIEEE ISBI 2026 Best Paper Awards - Runner Upを受賞しました！
 - :brain: 2026年4月6日にJST Top ASPIREのキックオフシンポジウムを大阪大学で開催します！ [[link]](https://www.deepsensing.org/events/symp_2026).
 - :sparkles: 2026年4月1日付で八木 聡明先生（特任准教授）、José Reinaldoさん（特任研究員）、田中 利明さん（博士後期課程）、橋田 大雅さん（博士後期課程）、岩本 圭一郎さん（博士前期課程）、Li Hanさん（博士前期課程）が新たに加わりました。ようこそ！
 - :tada: 4件の論文がCVPR2026に採択されました :tada:

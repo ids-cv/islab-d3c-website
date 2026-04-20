@@ -47,9 +47,8 @@ subtitle = ""
  css_style = ""
  
  # CSS class.
- css_class = ""
-+++
-
+ css_class = "
+- :trophy: Kazuya Nishimura’s joint research with Kyushu University has received the IEEE ISBI 2026 Best Paper Award (Runner-Up)!
 - :brain: We will hold a kickoff symposium for the JST Top ASPIRE project at the University of Osaka on April 6, 2026! [[link]](https://www.deepsensing.org/events/symp_2026).
 - :sparkles: New members joined on April 1st, 2026: Prof. Satoshi Yagi, Dr. José Reinaldo, Toshiaki Tanaka, Taiga Hashida, Keiichiro Iwamoto, and Li Han. Welcome!
 - :tada: Four papers are accepted to CVPR 2026 :tada:
