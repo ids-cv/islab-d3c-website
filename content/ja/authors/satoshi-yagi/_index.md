@@ -1,3 +1,4 @@
+---
 # Display name
 title: "八木 聡明"
 

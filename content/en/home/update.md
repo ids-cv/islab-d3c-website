@@ -47,13 +47,15 @@ subtitle = ""
  css_style = ""
  
  # CSS class.
- css_class = ""
-+++
+ css_class = "
 - :trophy: Kazuya Nishimura’s joint research with Kyushu University has received the IEEE ISBI 2026 Best Paper Award (Runner-Up)!
+- :brain: We will hold a kickoff symposium for the JST Top ASPIRE project at the University of Osaka on April 6, 2026! [[link]](https://www.deepsensing.org/events/symp_2026).
 - :sparkles: New members joined on April 1st, 2026: Prof. Satoshi Yagi, Dr. José Reinaldo, Toshiaki Tanaka, Taiga Hashida, Keiichiro Iwamoto, and Li Han. Welcome!
-- :tada: Two paper are accepted to CVPR 2026 :tada:
+- :tada: Four papers are accepted to CVPR 2026 :tada:
   - "BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment" by Risa Shinoda,  Kaede Shiohara, Nakamasa Inoue, Kuniaki Saito, Hiroaki Santo, and Fumio Okura.
   - "Cell-Type Prototype-Informed Neural Network for Gene Expression Estimation from Pathology Images" by Kazuya Nishimura, Ryoma Bise, Shinnosuke Matsuo, Haruka Hirose, and Yasuhiro Kojima.
   - "EMMA: Concept Erasure Benchmark with Comprehensive Semantic Metrics and Diverse Categories" by Lu Wei, Yuta Nakashima, and Noa Garcia.
+  - "Coded-E2LF: Coded Aperture Light Field Imaging from Events" by Tomoya Tsuchida, Keita Takahashi, Chihiro Tsutake, Toshiaki Fujii and Hajime Nagahara.
 - :tada: One paper is accepted to ICLR 2026 :tada:
-  - "Unified Facial Action Representation Learning for Micro-Expression Analysis" by Yicheng Deng, Hideaki Hayashi, and Hajime Nagahara.
+  - "From Pixels to Semantics: Unified Facial Action Representation Learning for Micro-Expression Analysis" by Yicheng Deng, Hideaki Hayashi, and Hajime Nagahara.
+
