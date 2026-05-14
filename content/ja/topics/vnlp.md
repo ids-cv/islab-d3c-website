@@ -1,6 +1,7 @@
 +++ 
 date = 2016-04-18 
 title = "Vision and Language" 
+draft = true
 
 toc = true # Show table of contents? true/false 
 type = "book" # Do not modify. 
