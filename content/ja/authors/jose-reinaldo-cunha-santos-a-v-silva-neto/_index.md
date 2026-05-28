@@ -19,12 +19,25 @@ organizations:
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
-bio:
+bio: ""
 
-#interests:
-#-
+interests:
+- 計算写真学
+- 逆問題画像処理
+- レンズレスイメージング
 
 social:
+- icon: envelope
+  icon_pack: fas
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  str: "vieira@is.ids.osaka-u.ac.jp"
+  show_link: false
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=EBIo6DgAAAAJ&hl=en&oi=sra
+- icon: github
+  icon_pack: fab
+  link: https://github.com/JRCSAVSN
 
 email: ""
 
@@ -32,5 +45,6 @@ user_groups:
 - 研究員
 - 専任
 ---
-### Contact
-- email: vieira@is.ids.
+### 連絡先
+- email: vieira@is.ids.osaka-u.ac.jp
+
