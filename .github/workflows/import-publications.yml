@@ -24,8 +24,9 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: master
+          persist-credentials: false
       - name: Set up Python 3.12
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Install dependencies
@@ -42,7 +43,7 @@ jobs:
           academic import bibtex/temp.bib content/ja/publication/ --compact --overwrite
           rm bibtex/temp.bib
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: ":robot: created pr to update publication"
           base: master
