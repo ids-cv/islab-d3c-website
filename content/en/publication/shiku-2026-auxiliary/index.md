@@ -7,8 +7,8 @@ authors:
 - Shinnosuke Matsuo
 - Yasuhiro Kojima
 - Ryoma Bise
-date: '2025-01-01'
-publishDate: '2025-12-09T01:20:22.544924Z'
+date: '2026-01-01'
+publishDate: '2026-12-09T01:20:20.773067Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the AAAI Conference on Artificial Intelligence*'

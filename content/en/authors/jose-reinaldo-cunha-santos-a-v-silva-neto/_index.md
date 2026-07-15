@@ -19,12 +19,25 @@ organizations:
 - name: "The University of Osaka"
   url: "http://www.osaka-u.ac.jp/"
 
-bio:
+bio: ""
 
-#interests:
-#-
+interests:
+- Computational photography
+- Inverse imaging
+- Lensless imaging
 
 social:
+- icon: envelope
+  icon_pack: fas
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  str: "vieira@is.ids.osaka-u.ac.jp"
+  show_link: false
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=EBIo6DgAAAAJ&hl=en&oi=sra
+- icon: github
+  icon_pack: fab
+  link: https://github.com/JRCSAVSN
 
 email: ""
 
@@ -33,4 +46,10 @@ user_groups:
 - Fulltime
 ---
 ### Contact
-- email: vieira@is.ids.
+- email: vieira@is.ids
+
+### Hobbies
+- karaoke
+- gym
+- dota
+- tennis

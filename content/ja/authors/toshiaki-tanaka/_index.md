@@ -18,10 +18,10 @@ organizations:
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
-bio:
+bio: ""
 
-#interests:
-#-
+interests:
+- 3D再構成
 
 social:
 

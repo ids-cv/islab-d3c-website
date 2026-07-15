@@ -18,10 +18,10 @@ organizations:
 - name: "The University of Osaka"
   url: "http://www.osaka-u.ac.jp/"
 
-bio:
+bio: ""
 
-#interests:
-#-
+interests:
+- 3D reconstruction
 
 social:
 

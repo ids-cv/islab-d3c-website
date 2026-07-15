@@ -2,7 +2,6 @@
 date = 2026-04-20
 title = "Vision and Omics"
 
-draft = true
 toc = true # Show table of contents? true/false
 type = "book" # Do not modify.
 weight = 50
