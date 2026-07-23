@@ -7,7 +7,7 @@ authors:
 - Shin'ichi Konomi
 - Hajime Nagahara
 date: '2023-01-01'
-publishDate: '2025-12-09T01:20:22.797464Z'
+publishDate: '2026-07-23T03:38:50.755275Z'
 publication_types:
 - article-journal
 publication: '*Applied Intelligence*'

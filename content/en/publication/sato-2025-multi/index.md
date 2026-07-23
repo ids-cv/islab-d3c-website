@@ -5,7 +5,7 @@ authors:
 - Hideaki Hayashi
 - Hajime Nagahara
 date: '2025-01-01'
-publishDate: '2025-12-09T01:20:20.839426Z'
+publishDate: '2026-07-23T03:38:47.419161Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the IEEE/CVF Winter Conference on Applications of Computer

@@ -7,7 +7,7 @@ authors:
 - Yuta Nakashima
 - Shanmuganathan Raman
 date: '2022-01-01'
-publishDate: '2025-12-09T01:20:21.118640Z'
+publishDate: '2026-07-23T03:38:47.715531Z'
 publication_types:
 - article-journal
 publication: '*IEEE Trans.~Pattern Analysis and Machine Intelligence*'

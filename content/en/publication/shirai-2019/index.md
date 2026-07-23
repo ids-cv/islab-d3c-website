@@ -7,7 +7,7 @@ authors:
 - Hajime Nagahara
 - Haruo Takemura
 date: '2019-03-01'
-publishDate: '2025-12-09T01:20:21.777378Z'
+publishDate: '2026-07-23T03:38:48.662025Z'
 publication_types:
 - paper-conference
 publication: '*Companion Proceedings of the 9th International Conference on Learning

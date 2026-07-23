@@ -8,7 +8,7 @@ authors:
 - Yuta Nakashima
 - Hajime Nagahara
 date: '2021-11-01'
-publishDate: '2025-12-09T01:20:22.970401Z'
+publishDate: '2026-07-23T03:38:50.870960Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~ACM International Conference on Multimedia Retrieval (ICMR)*'
