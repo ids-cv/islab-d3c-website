@@ -8,7 +8,7 @@ authors:
 - Kohji Nishida
 - Hajime Nagahara
 date: '2025-01-01'
-publishDate: '2025-12-09T01:20:20.809964Z'
+publishDate: '2026-07-23T03:38:47.317588Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the 47th Annual International Conference of the IEEE

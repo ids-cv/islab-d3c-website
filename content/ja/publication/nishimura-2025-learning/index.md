@@ -7,7 +7,7 @@ authors:
 - Kaito Shiku
 - Yasuhiro Kojima
 date: '2025-01-01'
-publishDate: '2025-12-09T01:20:22.534885Z'
+publishDate: '2026-07-23T03:38:49.330843Z'
 publication_types:
 - paper-conference
 publication: '*The Thirty-ninth Annual Conference on Neural Information Processing

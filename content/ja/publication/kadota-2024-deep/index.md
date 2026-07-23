@@ -8,7 +8,7 @@ authors:
 - Kiyohito Tanaka
 - Seiichi Uchida
 date: '2024-01-01'
-publishDate: '2025-12-09T01:20:22.559364Z'
+publishDate: '2026-07-23T03:38:49.540355Z'
 publication_types:
 - article-journal
 publication: '*Medical Image Analysis*'

@@ -16,7 +16,7 @@ authors:
 - Hidetoshi Eguchi
 - Hideshi Ishii
 date: '2020-04-01'
-publishDate: '2025-12-09T01:20:23.399884Z'
+publishDate: '2026-07-23T03:38:51.665125Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Molecular Sciences*'

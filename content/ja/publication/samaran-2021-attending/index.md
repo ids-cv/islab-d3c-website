@@ -8,7 +8,7 @@ authors:
 - Chenhui Chu
 - Yuta Nakashima
 date: '2021-08-01'
-publishDate: '2025-12-09T01:20:23.019603Z'
+publishDate: '2026-07-23T03:38:51.347039Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~Annual Meeting of the Association for Computational Linguistics

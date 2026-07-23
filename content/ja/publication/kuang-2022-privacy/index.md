@@ -8,7 +8,7 @@ authors:
 - Yuta Nakashima
 - Noboru Babaguchi
 date: '2022-03-01'
-publishDate: '2025-12-09T01:20:22.880927Z'
+publishDate: '2026-07-23T03:38:50.814615Z'
 publication_types:
 - article-journal
 publication: '*Journal of Electronic Imaging*'

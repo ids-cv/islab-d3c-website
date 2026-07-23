@@ -8,7 +8,7 @@ authors:
 - Yasuhiro Kojima
 - Ryoma Bise
 date: '2026-01-01'
-publishDate: '2026-12-09T01:20:22.544924Z'
+publishDate: '2026-07-23T03:38:49.335779Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the AAAI Conference on Artificial Intelligence*'

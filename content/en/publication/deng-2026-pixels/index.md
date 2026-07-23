@@ -1,0 +1,37 @@
+---
+title: 'From Pixels to Semantics: Unified Facial Action Representation Learning for
+  Micro-Expression Analysis'
+authors:
+- Yicheng Deng
+- Hideaki Hayashi
+- Hajime Nagahara
+date: '2026-04-01'
+publishDate: '2026-07-23T03:38:47.244215Z'
+publication_types:
+- paper-conference
+publication: '*Proceedings of the 14th International Conference on Learning Representations
+  (ICLR)*'
+abstract: Micro-expression recognition (MER) is highly challenging due to the subtle
+  and rapid facial muscle movements and the scarcity of annotated data. Existing methods
+  typically rely on pixel-level motion descriptors such as optical flow and frame
+  difference, which tend to be sensitive to identity and lack generalization. In this
+  work, we propose D-FACE, a Discrete Facial ACtion Encoding framework that leverages
+  large-scale facial video data to pretrain an identity- and domain-invariant facial
+  action tokenizer, for MER. For the first time, MER is shifted from relying on pixel-level
+  motion descriptors to leveraging semantic-level facial action tokens, providing
+  compact and generalizable representations of facial dynamics. Empirical analyses
+  reveal that these tokens exhibit position-dependent semantics, motivating sequential
+  modeling. Building on this insight, we employ a Transformer with sparse attention
+  pooling to selectively capture discriminative action cues. Furthermore, to explicitly
+  bridge action tokens with human-understandable emotions, we introduce an emotion-description-guided
+  CLIP (EDCLIP) alignment. EDCLIP leverages textual prompts as semantic anchors for
+  representation learning, while enforcing that the others category, which lacks corresponding
+  prompts due to its ambiguity, remains distant from all anchor prompts. Extensive
+  experiments on multiple datasets demonstrate that our method achieves not only state-of-the-art
+  recognition accuracy but also high-quality cross-identity and even cross-domain
+  micro-expression generation, suggesting a paradigm shift from pixel-level to generalizable
+  semantic-level facial motion analysis.
+links:
+- name: URL
+  url: https://openreview.net/forum?id=yJFVKlratr
+---

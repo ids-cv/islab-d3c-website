@@ -8,7 +8,7 @@ authors:
 - Hajime Nagahara
 - Yasushi Yagi
 date: '2021-03-01'
-publishDate: '2025-12-09T01:20:22.908055Z'
+publishDate: '2026-07-23T03:38:50.830457Z'
 publication_types:
 - article-journal
 publication: '*IEEE Access*'

@@ -7,7 +7,7 @@ authors:
 - Noriko Takemura
 - Hajime Nagahara
 date: '2024-01-01'
-publishDate: '2025-12-09T01:20:22.690923Z'
+publishDate: '2026-07-23T03:38:50.678245Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the IEEE/CVF Winter Conference on Applications of Computer
