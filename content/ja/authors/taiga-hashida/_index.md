@@ -24,6 +24,10 @@ bio:
 #-
 
 social:
+- icon: home
+  icon_pack: fas
+  link: https://mottya2022.github.io/
+  str: personal
 
 email: ""
 
@@ -32,3 +36,4 @@ user_groups:
 ---
 ### Contact
 - email: taiga.hashida@is.ids.
+- webpage: https://mottya2022.github.io/

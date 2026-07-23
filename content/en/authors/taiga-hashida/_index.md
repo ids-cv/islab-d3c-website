@@ -24,6 +24,10 @@ bio:
 #-
 
 social:
+- icon: home
+  icon_pack: fas
+  link: https://mottya2022.github.io/
+  str: personal
 
 email: ""
 
