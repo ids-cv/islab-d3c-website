@@ -32,3 +32,5 @@ user_groups:
 ---
 ### Contact
 - email: li.han@is.ids.
+
+Please add `osaka-u.ac.jp` to complete email address

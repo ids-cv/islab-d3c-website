@@ -23,7 +23,9 @@ social:
 email: ""
 
 user_groups:
-- 招へい研究員
+- Alumni
 ---
 ### 連絡先
-- email: pedro.dietrich@is.ids
+- email: pedro.dietrich@is.ids.
+
+Please add `osaka-u.ac.jp` to complete email address

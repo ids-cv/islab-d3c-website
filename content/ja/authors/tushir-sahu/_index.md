@@ -32,3 +32,5 @@ user_groups:
 ---
 ### Contact
 - email: tushir.sahu@is.ids.
+
+Please add `osaka-u.ac.jp` to complete email address

@@ -26,4 +26,6 @@ user_groups:
 - Students
 ---
 ### Contact
-- email: tulga@is.ids
+- email: tulga@is.ids.
+
+Please add `osaka-u.ac.jp` to complete email address

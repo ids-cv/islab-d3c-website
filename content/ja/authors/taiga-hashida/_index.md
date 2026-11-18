@@ -37,3 +37,5 @@ user_groups:
 ### Contact
 - email: taiga.hashida@is.ids.
 - webpage: https://mottya2022.github.io/
+
+Please add `osaka-u.ac.jp` to complete email address

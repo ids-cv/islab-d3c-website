@@ -29,5 +29,5 @@ social:
 email: ""
 
 user_groups:
-- Guest Researchers
+- Alumni
 ---

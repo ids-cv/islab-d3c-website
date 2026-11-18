@@ -26,4 +26,6 @@ user_groups:
 - 学生
 ---
 ### 連絡先
-- email: mizuki.seino@is.ids
+- email: mizuki.seino@is.ids.
+
+Please add `osaka-u.ac.jp` to complete email address

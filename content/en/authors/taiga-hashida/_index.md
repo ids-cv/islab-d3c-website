@@ -36,3 +36,5 @@ user_groups:
 ---
 ### Contact
 - email: taiga.hashida@is.ids.
+
+Please add `osaka-u.ac.jp` to complete email address

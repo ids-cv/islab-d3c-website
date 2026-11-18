@@ -29,5 +29,5 @@ social:
 email: ""
 
 user_groups:
-- 招へい研究員
+- Alumni
 ---

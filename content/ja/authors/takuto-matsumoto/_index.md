@@ -26,4 +26,6 @@ user_groups:
 - 学生
 ---
 ### 連絡先
-- email: takuto.matsumoto@is.ids.osaka-u.ac.jp
+- email: takuto.matsumoto@is.ids.
+
+Please add `osaka-u.ac.jp` to complete email address

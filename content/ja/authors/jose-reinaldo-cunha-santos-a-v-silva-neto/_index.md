@@ -30,7 +30,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-  str: "vieira@is.ids.osaka-u.ac.jp"
+  str: "vieira@is.ids."
   show_link: false
 - icon: google-scholar
   icon_pack: ai
@@ -46,5 +46,6 @@ user_groups:
 - 専任
 ---
 ### 連絡先
-- email: vieira@is.ids.osaka-u.ac.jp
+- email: vieira@is.ids.
 
+Please add `osaka-u.ac.jp` to complete email address
