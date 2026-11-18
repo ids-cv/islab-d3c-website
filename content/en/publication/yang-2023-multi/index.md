@@ -2,10 +2,10 @@
 title: Multi-modal humor segment prediction in video
 authors:
 - Zekun Yang
-- n̆derlineYuta Nakashima
+- Yuta Nakashima
 - Haruo Takemura
 date: '2023-06-01'
-publishDate: '2023-11-28T10:16:24.545666Z'
+publishDate: '2026-11-18T01:25:30.436269Z'
 publication_types:
 - article-journal
 publication: '*Multimedia Systems*'

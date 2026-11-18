@@ -10,7 +10,7 @@ authors:
 - Ambrosio Blanco
 - Katsushi Ikeuchi
 date: '2018-11-01'
-publishDate: '2026-07-23T03:38:51.527244Z'
+publishDate: '2026-11-18T01:25:32.794138Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - International Conference on Pattern Recognition (ICPR)*'

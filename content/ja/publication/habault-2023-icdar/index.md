@@ -8,7 +8,7 @@ authors:
 - Yuta Nakashima
 - Cathal Gurrin
 date: '2023-06-01'
-publishDate: '2026-07-23T03:38:50.709121Z'
+publishDate: '2026-11-18T01:25:32.296089Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~ACM International Conference on Multimedia Retrieval*'

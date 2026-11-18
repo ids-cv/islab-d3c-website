@@ -7,7 +7,7 @@ authors:
 - Toshiaki Fujii
 - Hajime Nagahara
 date: '2018-01-01'
-publishDate: '2026-07-23T03:38:48.371555Z'
+publishDate: '2026-11-18T01:25:30.893689Z'
 publication_types:
 - paper-conference
 publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes

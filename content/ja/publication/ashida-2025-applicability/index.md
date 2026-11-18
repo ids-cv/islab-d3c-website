@@ -7,7 +7,7 @@ authors:
 - Hideaki Hayashi
 - Hajime Nagahara
 date: '2025-01-01'
-publishDate: '2026-07-23T03:38:49.740458Z'
+publishDate: '2026-11-18T01:25:32.171423Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the International Conference on Computers in Education

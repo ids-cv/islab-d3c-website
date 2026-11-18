@@ -6,7 +6,7 @@ authors:
 - Hideaki Hayashi
 - Hajime Nagahara
 date: '2026-01-01'
-publishDate: '2026-07-23T03:38:47.260633Z'
+publishDate: '2026-11-18T01:25:30.257836Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Affective Computing*'

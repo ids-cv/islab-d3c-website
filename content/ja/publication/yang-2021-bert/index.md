@@ -8,7 +8,7 @@ authors:
 - Yuta Nakashima
 - Haruo Takemura
 date: '2021-07-01'
-publishDate: '2026-07-23T03:38:50.835537Z'
+publishDate: '2026-11-18T01:25:32.421515Z'
 publication_types:
 - article-journal
 publication: '*Neurocomputing*'

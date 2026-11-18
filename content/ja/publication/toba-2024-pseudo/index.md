@@ -5,7 +5,7 @@ authors:
 - Seiichi Uchida
 - Hideaki Hayashi
 date: '2024-01-01'
-publishDate: '2026-07-23T03:38:50.634201Z'
+publishDate: '2026-11-18T01:25:32.214070Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the IEEE World Congress on Computational Intelligence

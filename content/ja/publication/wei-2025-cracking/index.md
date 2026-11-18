@@ -1,0 +1,30 @@
+---
+title: 'Cracking the Code: Enhancing Implicit Hate Speech Detection through Coding
+  Classification'
+authors:
+- Lu Wei
+- Liangzhi Li
+- Tong Xiang
+- Xiao Liu
+- Noa Garcia
+date: '2025-06-01'
+publishDate: '2026-11-18T01:25:31.961351Z'
+publication_types:
+- paper-conference
+publication: '*Proceedings of the 5th Workshop on Trustworthy NLP (TrustNLP 2025)*'
+doi: 10.18653/v1/2025.trustnlp-main.9
+abstract: 'The internet has become a hotspot for hate speech (HS), threatening societal
+  harmony and individual well-being. While automatic detection methods perform well
+  in identifying explicit hate speech (ex-HS), they struggle with more subtle forms,
+  such as implicit hate speech (im-HS). We tackle this problem by introducing a new
+  taxonomy for im-HS detection, defining six encoding strategies named codetypes.
+  We present two methods for integrating codetypes into im-HS detection: 1) prompting
+  large language models (LLMs) directly to classify sentences based on generated responses,
+  and 2) using LLMs as encoders with codetypes embedded during the encoding process.
+  Experiments show that the use of codetypes improves im-HS detection in both Chinese
+  and English datasets, validating the effectiveness of our approach across different
+  languages.'
+links:
+- name: URL
+  url: https://doi.org/10.18653/v1/2025.trustnlp-main.9
+---

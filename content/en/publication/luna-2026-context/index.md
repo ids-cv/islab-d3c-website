@@ -1,0 +1,42 @@
+---
+title: 'Context Matters: Auditing Gender Bias in T2I Generation through Risk-Tiered
+  Use-Case Profiles'
+authors:
+- Jose Luna
+- Yan-Kun Wu
+- Xiao-Fei Xie
+- Noa Garcia
+date: '2026-06-01'
+publishDate: '2026-11-18T01:25:29.982673Z'
+publication_types:
+- paper-conference
+publication: '*Proceedings of the ACM Conference on Fairness, Accountability, and
+  Transparency (FAccT)*'
+doi: 10.1145/3805689.3812261
+abstract: "Text-to-image (T2I) generative models are increasingly used to produce
+  content for education, media, and public-facing communication, and are starting
+  to be integrated into higher-impact pipelines. Since generated images tend to reinforce
+  stereotypes, producing representational erasure via “default” depictions and shaping
+  perceptions of who belongs in certain roles, a growing body of work has proposed
+  metrics to quantify gender bias in T2I outputs. Yet existing evaluations remain
+  fragmented. Metrics are often reported without a shared view of what they measure,
+  what assumptions they entail, or how their results should be interpreted under different
+  deployment contexts. This limits the usefulness of gender bias measurement for both
+  technical auditing and emerging governance discussions. We propose a risk-aligned
+  auditing framework for gender bias in T2I models composed of three constituents
+  that connects risk categories, evaluation metrics, and harms. First, we identify
+  risk-tiered use-case profiles aligned with the EU AI Act's risk categories to motivate
+  why auditing expectations may vary with deployment contexts and stakeholder exposure.
+  Second, we construct a metric catalog that consolidates gender-bias evaluation methods
+  and organizes them in three measurement categories: gender prediction, embedding
+  similarity, and downstream task. Third, we introduce a harm typology that maps context-dependent
+  harm categories (e.g., representational, quality-of-service) to specific risk-tired
+  scenarios. Finally, we introduce THUMB cards (Text-to-image Harms-informed Use-case-aligned
+  Metrics of gender Bias) that help formulate auditing systematically by the incorporation
+  of context, scenario and bias manifestation, harm hypotheses, and audit strategy.
+  Thus, by linking measurements and harms to specific risk-tiered deployment contexts,
+  our framework supports a more reusable format for better auditing reporting."
+links:
+- name: URL
+  url: https://doi.org/10.1145/3805689.3812261
+---

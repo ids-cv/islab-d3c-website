@@ -5,7 +5,7 @@ authors:
 - Hajime Nagahara
 - Hideaki Hayashi
 date: '2024-01-01'
-publishDate: '2026-07-23T03:38:47.429622Z'
+publishDate: '2026-11-18T01:25:30.346446Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the International Conference on Artificial Neural Networks

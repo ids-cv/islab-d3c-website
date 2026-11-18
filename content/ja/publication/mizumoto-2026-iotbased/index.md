@@ -1,0 +1,47 @@
+---
+title: 'IoT-Based Loneliness Monitoring for Older Adults: Lessons From Japanese and
+  US Communities'
+authors:
+- Teruhiro Mizumoto
+- Viktor Erdélyi
+- Xia-Yan Ji
+- Ahhyun Yuh
+- Takeshi Nakagawa
+- Takashi Suehiro
+- Hajime Nagahara
+- Yasuyuki Gondo
+- George Demiris
+- Oleg Sokolsky
+- Insup Lee
+- Teruo Higashino
+date: '2026-01-01'
+publishDate: '2026-11-18T01:25:31.885389Z'
+publication_types:
+- article-journal
+publication: '*IEEE Access*'
+doi: 10.1109/ACCESS.2026.3667333
+abstract: Social isolation and loneliness pose critical health risks to elderly populations,
+  with mortality impacts that rival smoking and obesity. The COVID-19 pandemic has
+  intensified these risks and exposed the limitations of current monitoring approaches.
+  Most sensor-based monitoring systems remain impractical for wide deployment due
+  to their complex maintenance needs and heavy technical overhead. They often demand
+  dense sensor networks, frequent interventions, and substantial infrastructure -
+  barriers that prevent adoption beyond controlled research settings. To address these
+  challenges, we present a simplified sensing system that enables practical monitoring
+  of elderly loneliness across different cultural contexts. Our approach uses a small
+  set of carefully chosen sensors to capture key behavioral indicators while minimizing
+  maintenance needs. Tests with 33 participants across Japan and US senior communities
+  demonstrate practical accuracy (MAE = 3.98 for Japan and MAE = 6.35 for the US)
+  with significantly reduced complexity. Post-deployment feedback revealed high system
+  acceptability and low privacy concerns among participants, supporting the feasibility
+  of long-term monitoring. The deployments revealed several differences in how social
+  isolation manifests across cultures - from sleep patterns to activity rhythms. Through
+  systematic feature selection based on these behavioral differences, we achieved
+  improved predictive performance. We detail the technical architecture, deployment
+  methods, and maintenance protocols needed for community-scale implementation. Our
+  results show that effective elderly monitoring is possible without a large number
+  of sensors, opening the path for sustainable, community-managed deployments.
+links:
+- name: URL
+  url: https://doi.org/10.1109/ACCESS.2026.3667333
+---

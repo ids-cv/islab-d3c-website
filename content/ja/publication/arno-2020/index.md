@@ -8,7 +8,7 @@ authors:
 - Hirohiko Niioka
 - Tomonobu M. Watanabe
 date: '2020-10-01'
-publishDate: '2026-07-23T03:38:51.372131Z'
+publishDate: '2026-11-18T01:25:32.568685Z'
 publication_types:
 - article-journal
 publication: '*Analytical Chemistry*'

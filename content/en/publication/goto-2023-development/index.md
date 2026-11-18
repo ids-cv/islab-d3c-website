@@ -10,7 +10,7 @@ authors:
 - Noriko Takemura
 - Masako Iwasaki
 date: '2023-01-01'
-publishDate: '2026-07-23T03:38:47.661161Z'
+publishDate: '2026-11-18T01:25:30.498403Z'
 publication_types:
 - article-journal
 publication: '*Nuclear Instruments and Methods in Physics Research Section A: Accelerators,

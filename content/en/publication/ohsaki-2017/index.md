@@ -6,7 +6,7 @@ authors:
 - Tetsuo Ikeda
 - Rin-ichiro Taniguchi
 date: '2017-03-01'
-publishDate: '2026-07-23T03:38:48.543298Z'
+publishDate: '2026-11-18T01:25:30.970794Z'
 publication_types:
 - paper-conference
 publication: '*Thirteenth International Conference on Quality Control by Artificial

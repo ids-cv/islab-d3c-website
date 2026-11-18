@@ -1,12 +1,12 @@
 ---
-title: Point-Supervised Facial Expression Spotting with Gaussian-Based Instance-Adaptive
+title: Point-Supervised Facial Expression Spotting With Gaussian-Based Instance-Adaptive
   Intensity Modeling
 authors:
 - Yicheng Deng
 - Hideaki Hayashi
 - Hajime Nagahara
 date: '2026-01-01'
-publishDate: '2026-07-23T03:38:49.325246Z'
+publishDate: '2026-11-18T01:25:32.067703Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Biometrics, Behavior, and Identity Science*'
@@ -31,9 +31,7 @@ abstract: 'Automatic facial expression spotting, which aims to identify facial e
   apex-classification branch is responsible for macro- and micro-expression classification.
   Furthermore, we introduce an intensity-aware contrastive loss to enhance discriminative
   feature learning and suppress neutral noise by contrasting neutral frames with expression
-  frames with various intensities. Extensive experiments on the SAMM-LV, CAS(ME)$^2$,
-  and CAS(ME)$^3$ datasets demonstrate the effectiveness of our proposed framework.'
-links:
-- name: URL
-  url: https://doi.org/10.1109/TBIOM.2026.3651893
+  frames with various intensities. Extensive experiments on the SAMM-LV, CAS(ME)2,
+  and CAS(ME)3 datasets demonstrate the effectiveness of our proposed framework. Code
+  is available at https://github.com/KinopioIsAllIn/GIM'
 ---
