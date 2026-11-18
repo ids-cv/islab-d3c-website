@@ -50,14 +50,12 @@ subtitle = ""
  css_class = ""
 +++
 
-- :trophy: Prof. Nishimura’s joint research with Kyushu University has received the IEEE ISBI 2026 Best Paper Award (Runner-Up)!
-- :brain: We will hold a kickoff symposium for the JST Top ASPIRE project at the University of Osaka on April 6, 2026! [[link]](https://www.deepsensing.org/events/symp_2026).
-- :sparkles: New members joined on April 1st, 2026: Prof. Satoshi Yagi, Dr. José Reinaldo, Toshiaki Tanaka, Taiga Hashida, Keiichiro Iwamoto, and Li Han. Welcome!
-- :tada: Four papers are accepted to CVPR 2026 :tada:
-  - "BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment" by Risa Shinoda,  Kaede Shiohara, Nakamasa Inoue, Kuniaki Saito, Hiroaki Santo, and Fumio Okura.
-  - "Cell-Type Prototype-Informed Neural Network for Gene Expression Estimation from Pathology Images" by Kazuya Nishimura, Ryoma Bise, Shinnosuke Matsuo, Haruka Hirose, and Yasuhiro Kojima.
-  - "EMMA: Concept Erasure Benchmark with Comprehensive Semantic Metrics and Diverse Categories" by Lu Wei, Yuta Nakashima, and Noa Garcia.
-  - "Coded-E2LF: Coded Aperture Light Field Imaging from Events" by Tomoya Tsuchida, Keita Takahashi, Chihiro Tsutake, Toshiaki Fujii and Hajime Nagahara.
-- :tada: One paper is accepted to ICLR 2026 :tada:
-  - "From Pixels to Semantics: Unified Facial Action Representation Learning for Micro-Expression Analysis" by Yicheng Deng, Hideaki Hayashi, and Hajime Nagahara.
-
+- :tada: One paper is accepted to IEEE-EMBS BHI 2026 :tada:
+  - "Exploring the Latent Structure of AMD Severity Using Retinal Foundation Models" by Niccolò Fineschi, Jovana Panic, Atsushi Watanabe, Hideaki Hayashi, Kazuya Nishimura, Yuki Maeno, Samanta Rosati, Gabriella Balestra, Kohji Nishida, and Hajime Nagahara.
+- :page_facing_up: Our paper is published in Communications Medicine :page_facing_up:
+  - "Automated acquisition of thyroid cytology image features using self-supervised learning and application to image classification" by Masatoshi Abe, Ayana Suzuki, Kumiko Kamada, Toshiya Kanno, Mayu Shimasaki, Toshinori Mori, Hajime Nagahara, Akira Miyauchi, Takashi Akamizu, Mitsuyoshi Hirokawa, and Hirohiko Niioka.
+- :tada: One paper is accepted to MICCAI 2026 :tada:
+  - "Fast 3D Cell Volume Reconstruction from Multi-focus Images by Cross-modality Knowledge Distillation" by Imam Khairi Lubis, Ken'ichi Morooka, Rin Matsukado, Yukako Nakamae, and Hajime Nagahara.
+- :tada: Two papers are accepted to ECCV 2026 :tada:
+  - "Don't Mask Out the Background! Natural-Light Photometric Stereo via Illumination Reconstruction" by Taiga Hashida, Hiroaki Santo, and Fumio Okura.
+  - "Art Beyond Semantics: Sheaf-Informed Contrastive Learning for Multi-Relational Representations" by Ludovica Schaerf, Antonio Purificato, Piera Riccio, Fabrizio Silvestri, and Noa Garcia.

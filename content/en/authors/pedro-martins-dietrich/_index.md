@@ -23,7 +23,9 @@ social:
 email: ""
 
 user_groups:
-- Guest Researchers
+- Alumni
 ---
 ### Contact
-- email: pedro.dietrich@is.ids
+- email: pedro.dietrich@is.ids.
+
+Please add `osaka-u.ac.jp` to complete email address

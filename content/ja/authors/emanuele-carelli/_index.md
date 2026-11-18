@@ -34,7 +34,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-  str: "emanuele.carelli@studenti.polito.it"
+  str: "emanuele.carelli@studenti."
   show_link: false
 - icon: github
   icon_pack: fab
@@ -47,4 +47,6 @@ user_groups:
 - 招へい研究員
 ---
 ### 連絡先
-- email: emanuele.carelli@studenti.polito.it
+- email: emanuele.carelli@studenti.
+
+Please add `polito.it` to complete email address

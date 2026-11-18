@@ -1,3 +1,703 @@
+@article{abe2026automated,
+  abstract = {Thyroid fine-needle aspiration cytology is widely used to evaluate thyroid nodules before surgery. Recent advances in deep learning have increased the potential for artificial intelligence-assisted cytological diagnosis. However, developing accurate models usually requires large numbers of images labelled by experts, making dataset preparation time-consuming and costly. We investigate whether self-supervised learning can improve thyroid cytology image classification while reducing the need for labelled data. We retrospectively analysed cytology images from 393 thyroid nodules and extracted 142,158 image patches. Three self-supervised learning methods were used to pre-train vision transformer models on unlabelled images, followed by classification training with different amounts of labelled data. Performance in classifying eight lesion types was assessed using five-fold cross-validation, precision–recall area under the curve, and macro-averaged F1 scores. Model performance was compared with ImageNet-pretrained models and four cytotechnologists. Here we show that self-supervised learning maintains high classification performance when labelled training data are limited and consistently outperforms ImageNet pre-training. With 1% of the labelled data, the best self-supervised model achieves a precision–recall area under the curve of 0.899, compared with 0.707 for ImageNet pre-training. The diagnostic pipeline achieves an average class-specific accuracy of 0.94, exceeding that of the four participating cytotechnologists. Self-supervised image representations also form lesion-specific clusters without diagnostic labels. Self-supervised learning enables accurate classification of thyroid cytology images while substantially reducing the need for expert annotation. This approach may facilitate the development of more efficient artificial intelligence-assisted cytology systems, although validation using data from multiple institutions is needed.},
+  author = {Abe, Masatoshi and Suzuki, Ayana and Kamada, Kumiko and Kanno, Toshiya and Shimasaki, Mayu and Mori, Toshinori and Nagahara, Hajime and Miyauchi, Akira and Akamizu, Takashi and Hirokawa, Mitsuyoshi and Niioka, Hirohiko},
+  title = {{Automated acquisition of thyroid cytology image features using self-supervised learning and application to image classification}},
+  journal = {Communications Medicine},
+  month = {October},
+  year = {2026},
+  doi = {10.1038/s43856-026-01874-2},
+  url = {https://doi.org/10.1038/s43856-026-01874-2}
+}
+
+@inproceedings{nishimura2026leveraging,
+  abstract = {Deep learning-based nuclei analysis in histopathology relies heavily on large-scale, expert-curated datasets that are costly and difficult to scale across organs. To address this, we propose a scalable framework leveraging cell-level spatial transcriptomics (ST) as an alternative supervision source for nuclei classification. Cell-level ST provides both gene expression profiles and nucleus masks, enabling automatic generation of image-label pairs without manual annotation. We convert gene expression into cell-type labels and introduce an image-oriented classification strategy to effectively transfer these identities to histopathology images. Evaluated on unseen tissues, our framework achieves comparable segmentation and classification performance compared with conventional supervised approaches, despite using fewer manually annotated datasets.},
+  author = {Nishimura, Kazuya and Bise, Ryoma and Hirose, Haruka and Kojima, Yasuhiro},
+  title = {{Leveraging Cell-level Spatial Transcriptomics as Weak Supervision for Nuclei Classification}},
+  booktitle = {Proceedings of the 1st International Workshop on Medical Imaging Analysis for Spatial Omics (MISO), MICCAI 2026 Workshops and Challenges},
+  series = {Lecture Notes in Computer Science},
+  volume = {17252},
+  publisher = {Springer Nature Switzerland},
+  month = {October},
+  year = {2026},
+  url = {https://arxiv.org/abs/2604.23481}
+}
+
+@inproceedings{lubis2026fast,
+  author = {Lubis, Imam Khairi and Morooka, Ken'ichi and Matsukado, Rin and Nakamae, Yukako and Nagahara, Hajime},
+  title = {{Fast 3D Cell Volume Reconstruction from Multi-focus Images by Cross-modality Knowledge Distillation}},
+  booktitle = {Proceedings of the International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  pages = {167--176},
+  month = {September},
+  year = {2026},
+  doi = {10.1007/978-3-032-38179-8_17},
+  url = {https://doi.org/10.1007/978-3-032-38179-8_17}
+}
+
+@inproceedings{fineschi2026exploring,
+  abstract = {Retinal foundation models have demonstrated strong performance across a wide range of ophthalmic tasks, yet relatively little is known about how disease-related information is represented within their learned embeddings and whether this distribution influences downstream prediction performance. In this work, we use Age-related Macular Degeneration (AMD) as a case study to investigate how disease severity is represented within the embedding space of RET-CLIP, a retinal vision-language foundation model, using bilateral fundus images from the AREDS dataset, benchmarked against non-retinal encoders. We first characterize the distribution of AMD severity within the learned representation space and then evaluate how this structure influences classification performance across three clinically relevant task formulations of increasing granularity. Finally, we analyze the most influential latent dimensions combining feature attribution, statistical phenotype association, and qualitative image analyses. Our results show that RET-CLIP represents AMD severity as a continuous spectrum rather than a set of discrete categories, with healthy and advanced disease stages exhibiting clearer separation than intermediate ones. This organization was reflected in downstream performance, which decreased from a balanced accuracy of 0.844 and 0.814 for binary AMD and Late-AMD detection respectively to 0.446 for six-class grading. Furthermore, the most influential latent dimensions were statistically associated to distinct retinal phenotypes, including drusen accumulation, pigmentary alterations, and advanced retinal lesions. These findings suggest that the structure of retinal foundation-model representations influences the difficulty of clinically relevant prediction tasks and demonstrate the potential of representation-level analysis for understanding disease organization and improving interpretability.},
+  author = {Fineschi, Niccolò and Panic, Jovana and Watanabe, Atsushi and Hayashi, Hideaki and Nishimura, Kazuya and Maeno, Yuki and Rosati, Samanta and Balestra, Gabriella and Nishida, Kohji and Nagahara, Hajime},
+  title = {{Exploring the Latent Structure of AMD Severity Using Retinal Foundation Models}},
+  booktitle = {Proceedings of the IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)},
+  month = {September},
+  year = {2026},
+  url = {https://arxiv.org/abs/2610.14138}
+}
+
+@inproceedings{hashida2026mask,
+  author = {Hashida, Taiga and Santo, Hiroaki and Okura, Fumio},
+  title = {{Don't Mask Out the Background! Natural-Light Photometric Stereo via Illumination Reconstruction}},
+  booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages = {93--110},
+  month = {September},
+  year = {2026},
+  doi = {10.1007/978-3-032-37356-4_6},
+  url = {https://doi.org/10.1007/978-3-032-37356-4_6}
+}
+
+@inproceedings{tsuchida2026codede2lf,
+  abstract = {We propose Coded-E2LF (coded event to light field), a computational imaging method for acquiring a 4-D light field using a coded aperture and a stationary event-only camera. In a previous work, an imaging system similar to ours was adopted, but both events and intensity images were captured and used for light field reconstruction. In contrast, our method is purely event-based, which relaxes restrictions for hardware implementation. We also introduce several advancements from the previous work that enable us to theoretically support and practically improve light field reconstruction from events alone. In particular, we clarify the key role of a black pattern in aperture coding patterns. We finally implemented our method on real imaging hardware to demonstrate its effectiveness in capturing real 3-D scenes. To the best of our knowledge, we are the first to demonstrate that a 4-D light field with pixel-level accuracy can be reconstructed from events alone. Our software and supplementary video are available from our project website.},
+  author = {Tsuchida, Tomoya and Takahashi, Keita and Tsutake, Chihiro and Fujii, Toshiaki and Nagahara, Hajime},
+  title = {{Coded-E2LF: Coded Aperture Light Field Imaging from Events}},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  volume = {abs/2602.22620},
+  month = {July},
+  year = {2026},
+  url = {https://arxiv.org/abs/2602.22620}
+}
+
+@inproceedings{schaerf2026art,
+  abstract = {Understanding a painting is never a single act. Art historians may analyze the same work through concepts of style, iconography, or historical context, dimensions that are not interchangeable, and each carries distinct semantic relationships between the visual and the textual. Vision-Language Models (VLMs) like CLIP, which learn a single shared embedding space, collapse this richness into a single homogeneous alignment, thereby losing the multi-relational structure that defines art-historical reasoning. We introduce CANVAS (Contrastive Art-aware Network for Vision-Language Alignment with Sheaves), a framework for learning relation-aware multimodal representations inspired by sheaf theory. Each artwork is projected into multiple embeddings conditioned on the type of relation (i.e., the context), and a novel contrastive loss encodes contextual information during training, with no dependency on external data at inference. We evaluate on three newly introduced benchmarks of artworks for multi-relational art understanding: WikiArt+, derived from WikiArt and Wikipedia, HertzianaDP, from the Bibliotheca Hertziana collection, and SemArt+, refined from the SemArt dataset. In multimodal retrieval and art understanding, CANVAS outperforms the baselines, supporting the view that multi-relational alignment is not just theoretically motivated but also practically essential.},
+  author = {Schaerf, Ludovica and Purificato, Antonio and Riccio, Piera and Silvestri, Fabrizio and Garcia, Noa},
+  title = {{Art Beyond Semantics: Sheaf-Informed Contrastive Learning for Multi-Relational Representations}},
+  booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
+  volume = {abs/2607.16321},
+  month = {July},
+  year = {2026},
+  doi = {10.1007/978-3-032-37324-3_15},
+  url = {https://doi.org/10.1007/978-3-032-37324-3_15}
+}
+
+@article{moriguchi2026singlecamera,
+  abstract = {Locomotive syndrome (LS), characterized by declining mobility due to musculoskeletal disorders, significantly affects older adults and is highly prevalent in Japan. Early detection and intervention are crucial to mitigate disease progression and preserve quality of life. Current diagnostic methods rely on subjective self-reports and labor-intensive clinical assessments, underscoring the need for automated, objective, and scalable screening tools. Building on our previous work, this study presents an updated deep learning-based computer vision model for LS screening using single-camera walking videos. We collected 511 walking videos from 178 participants clinically classified into four LS stages (non-LS, stage 1, stage 2, and stage 3). We used the MMPose framework to extract 2D body keypoints and generated silhouette-based Gait Energy Images (GEIs) from seven frames automatically sampled from fixed 40-frame walking windows to capture complementary gait-shape information. Model performance was evaluated using 10-fold cross-validation based on held-out evaluation-window predictions, while ensuring that windows from the same participant and the same walking video were not split across training, validation, and test sets. We also evaluated an independent external validation cohort of 33 cases (LS0–1, n = 15; LS2–3, n = 18). In internal validation, the pose-estimation model achieved sensitivity of 0.9440 and an AUC of 0.9668, whereas the silhouette model showed specificity of 0.9085 and an AUC of 0.9191. Fusion models outperformed the individual approaches, with the highest F1-score (0.908) at a 60:40 pose-to-silhouette ratio and the highest AUC (0.971) at a 70:30 ratio. In external validation, the score-fusion model achieved 90.9% accuracy, 88.9% sensitivity, 93.3% specificity, a macro-F1 score of 0.909, and an AUC of 0.967. In conclusion, integrating pose-estimation and silhouette-based features substantially improves the accuracy and clinical utility of automated LS screening. This low-burden approach provides a practical bridge between population-level screening and definitive clinical assessment.},
+  author = {Moriguchi, Yu and Kushioka, Junichi and Takemura, Noriko and Hagizawa, Hiroki and Kashii, Masafumi and Nakahara, Ichiro and Kimura, Taichi and Akiyama, Keisuke and Fujimoto, Taku and Nagahara, Hajime and Yamada, Keiko and Navarro-Ramirez, Rodrigo and Oda, Takenori and Mochizuki, Hideki and Nakata, Ken and Okada, Seiji and Tada, Satoru},
+  title = {{A single-camera video-based assessment of locomotive syndrome using pose-silhouette fusion model}},
+  journal = {PLOS Digital Health},
+  volume = {5},
+  number = {6},
+  pages = {e0001530--e0001530},
+  month = {June},
+  year = {2026},
+  doi = {10.1371/journal.pdig.0001530},
+  url = {https://doi.org/10.1371/journal.pdig.0001530}
+}
+
+@inproceedings{luna2026context,
+  abstract = {Text-to-image (T2I) generative models are increasingly used to produce content for education, media, and public-facing communication, and are starting to be integrated into higher-impact pipelines. Since generated images tend to reinforce stereotypes, producing representational erasure via “default” depictions and shaping perceptions of who belongs in certain roles, a growing body of work has proposed metrics to quantify gender bias in T2I outputs. Yet existing evaluations remain fragmented. Metrics are often reported without a shared view of what they measure, what assumptions they entail, or how their results should be interpreted under different deployment contexts. This limits the usefulness of gender bias measurement for both technical auditing and emerging governance discussions. We propose a risk-aligned auditing framework for gender bias in T2I models composed of three constituents that connects risk categories, evaluation metrics, and harms. First, we identify risk-tiered use-case profiles aligned with the EU AI Act's risk categories to motivate why auditing expectations may vary with deployment contexts and stakeholder exposure. Second, we construct a metric catalog that consolidates gender-bias evaluation methods and organizes them in three measurement categories: gender prediction, embedding similarity, and downstream task. Third, we introduce a harm typology that maps context-dependent harm categories (e.g., representational, quality-of-service) to specific risk-tired scenarios. Finally, we introduce THUMB cards (Text-to-image Harms-informed Use-case-aligned Metrics of gender Bias) that help formulate auditing systematically by the incorporation of context, scenario and bias manifestation, harm hypotheses, and audit strategy. Thus, by linking measurements and harms to specific risk-tiered deployment contexts, our framework supports a more reusable format for better auditing reporting.},
+  author = {Luna, Jose and Wu, Yan-Kun and Xie, Xiao-Fei and Garcia, Noa},
+  title = {{Context Matters: Auditing Gender Bias in T2I Generation through Risk-Tiered Use-Case Profiles}},
+  booktitle = {Proceedings of the ACM Conference on Fairness, Accountability, and Transparency (FAccT)},
+  pages = {1454--1475},
+  month = {June},
+  year = {2026},
+  doi = {10.1145/3805689.3812261},
+  url = {https://doi.org/10.1145/3805689.3812261}
+}
+
+@inproceedings{garcia2026weaponization,
+  abstract = {Computer vision, a core domain of artificial intelligence (AI), is the field that enables the computational analysis, understanding, and generation of visual data. Despite being historically rooted in military funding and increasingly deployed in warfare, the field tends to position itself as a neutral, purely technical endeavor, failing to engage in discussions about its dual-use applications. Yet it has been reported that computer vision systems are being systematically weaponized to assist in technologies that inflict harm, such as surveillance or warfare. Expanding on these concerns, we study the extent to which computer vision research is being used in the military and surveillance domains. We do so by collecting a dataset of tech companies with financial ties to the field's central research exchange platform: conferences. Conference sponsorship, we argue, not only serves as strong evidence of a company's investment in the field but also provides a privileged position for shaping its trajectory. By investigating sponsors' activities, we reveal that 44% of them have a direct connection with military or surveillance applications. We extend our analysis through two case studies in which we discuss the opportunities and limitations of sponsorship as a means for uncovering technological weaponization.},
+  author = {Garcia, Noa and Katirai, Amelia},
+  title = {{The Weaponization of Computer Vision: Tracing Military-Surveillance Ties through Conference Sponsorship}},
+  booktitle = {Proceedings of the ACM Conference on Fairness, Accountability, and Transparency (FAccT)},
+  pages = {670--686},
+  month = {June},
+  year = {2026},
+  doi = {10.1145/3805689.3806535},
+  url = {https://doi.org/10.1145/3805689.3806535}
+}
+
+@article{liu2026plantpose,
+  abstract = {Accurate estimation of plant skeletal structures (e.g., branching structures) from images is essential for smart agriculture and plant science. Unlike human skeletons with fixed topology, plant skeleton estimation presents a unique challenge, i.e., estimating arbitrary tree graphs from images. To address this problem, we introduce PlantPose, a universal plant skeleton estimator via tree-constrained graph generation. PlantPose combines learning-based graph generation with traditional graph algorithms to enforce tree constraints during the training loop. To enhance the model’s generalization capability, we curate a large and diverse dataset comprising real-world and synthetic plant images, along with simplified representations (e.g., sketches and abstract drawings). This dataset enables the generalized model to adapt to diverse input styles and categories of plant images while preserving topological consistency. Our approach demonstrates robust and accurate plant skeleton estimation across multiple domains, including previously unseen out-of-domain scenarios. Further analyses highlight the method’s strengths and limitations in handling complex, heterogeneous data distributions. All implementations and datasets are available at https://github.com/huntorochi/PlantPose/.},
+  author = {Liu, Xin-Peng and Santo, Hiroaki and Toda, Yosuke and Okura, Fumio},
+  title = {{PlantPose: Universal Plant Skeleton Estimation via Tree-constrained Graph Generation}},
+  journal = {International Journal of Computer Vision},
+  volume = {134},
+  number = {6},
+  month = {June},
+  year = {2026},
+  doi = {10.1007/s11263-026-02882-4},
+  url = {https://doi.org/10.1007/s11263-026-02882-4}
+}
+
+@inproceedings{kawachi2026imperceptible,
+  abstract = {This paper introduces a method for using LED-based environmental lighting to produce visually imperceptible watermarks for consumer cameras. Our approach optimizes an LED light source's spectral profile to be minimally visible to the human eye while remaining highly detectable by typical consumer cameras. The method jointly considers the human visual system's sensitivity to visible spectra, modern consumer camera sensors' spectral sensitivity, and narrowband LEDs' ability to generate broadband spectra perceived as “white light” (specifically, D65 illumination). To ensure imperceptibility, we employ spectral modulation rather than intensity modulation. Unlike conventional visible light communication, our approach enables watermark extraction at standard low frame rates (30-60 fps). While the information transfer rate is modest-embedding 128 bits within a 10-second video clip-this capacity is sufficient for essential metadata supporting privacy protection and content verification.},
+  author = {Kawachi, Hodaka and Nakamura, Tomoya and Santo, Hiroaki and Tedla, S. and Canham, Trevor D. and Yagi, Yasushi and Brown, Michael S.},
+  title = {{Towards Imperceptible Watermarking via Environment Illumination for Consumer Cameras}},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings Track},
+  pages = {1273--1282},
+  month = {June},
+  year = {2026},
+  url = {https://arxiv.org/abs/2510.17114}
+}
+
+@inproceedings{shinoda2026animalclap,
+  abstract = {Animal vocalizations provide crucial insights for wildlife assessment, particularly in complex environments such as forests, aiding species identification and ecological monitoring. Recent advances in deep learning have enabled automatic species classification from their vocalizations. However, classifying species unseen during training remains challenging. To address this limitation, we introduce AnimalCLAP, a taxonomy-aware language-audio framework comprising a new dataset and model that incorporate hierarchical biological information. Specifically, our vocalization dataset consists of 4,225 hours of recordings covering 6,823 species, annotated with 22 ecological traits. The AnimalCLAP model is trained on this dataset to align audio and textual representations using taxonomic structures, improving the recognition of unseen species. We demonstrate that our proposed model effectively infers ecological and biological attributes of species directly from their vocalizations, achieving superior performance compared to CLAP. Our dataset, code, and models will be publicly available at https://dahlian00.github.io/AnimalCLAP_Page/.},
+  author = {Shinoda, Risa and Shiohara, Kaede and Inoue, Nakamasa and Santo, Hiroaki and Okura, Fumio},
+  title = {{AnimalCLAP: Taxonomy-Aware Language-Audio Pretraining for Species Recognition and Trait Inference}},
+  booktitle = {Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  volume = {abs/2603.22053},
+  pages = {7767--7771},
+  month = {May},
+  year = {2026},
+  doi = {10.1109/icassp55912.2026.11463001},
+  url = {https://doi.org/10.1109/icassp55912.2026.11463001}
+}
+
+@article{fujii2026empirical,
+  abstract = {Measuring and modeling the bending rigidity of textile fabrics is challenging due to the nonlinearity and coupling of the bending and tensile strains, especially in the high-stress ranges. To address this problem, we propose a novel empirical hyperelastic model to measure the nonlinear behaviors of the bending rigidity, including high-stress ranges close to bending rupture. Specifically, we develop the hyperelastic strain energy by generalizing the linear orthotropic constitutive relation, whose nonlinear material parameters can be directly determined by fabric tests through nonlinear curve fitting. To model the nonlinear bending modulus, we introduce fraction factors that quantify the softness of the bending rigidity compared with the tensile rigidity. Based on the proposed hyperelastic model, we performed the finite element method of ball bursting tests to optimize the fraction factors, and found that the bending rigidity is 3—5 times lower than the tensile rigidity in high-stress ranges for cotton woven fabrics (i.e., Sheeting, Ox, and Twill), showing that the nonlinearity of the bending modulus and strain is important for predicting bending stresses during the out-of-plane stretching. Besides, the nonlinearity of the tensile rigidity also affects the measurement of the bending rigidity in high-stress ranges. We anticipate that our hyperelastic modeling of textile fabrics and measurement method of the nonlinear bending rigidity will give new functionalities to product development in the textile industry.},
+  author = {Fujii, Ryota and Nakashima, Akichika and Santo, Hiroaki and Kinari, T. and Okura, Fumio},
+  title = {{Empirical hyperelastic modeling of textile fabrics for measuring nonlinear bending rigidity}},
+  journal = {Engineering with Computers},
+  volume = {42},
+  number = {3},
+  month = {May},
+  year = {2026},
+  doi = {10.1007/s00366-026-02343-z},
+  url = {https://doi.org/10.1007/s00366-026-02343-z}
+}
+
+@article{makabe2026dpsfm,
+  abstract = {Multi-view 3D reconstruction, namely, structure-from-motion followed by multi-view stereo, is a fundamental component of 3D computer vision. In general, multi-view 3D reconstruction suffers from an unknown scale ambiguity unless a reference object of known size is present in the scene. In this article, we show that multi-view images captured using a dual-pixel (DP) sensor can automatically resolve the scale ambiguity, without requiring a reference object or prior calibration. Specifically, the defocus blur observed in DP images provides sufficient information to determine the absolute scale when paired with depth maps (up to scale) recovered from multi-view 3D reconstruction. Based on this observation, we develop a simple yet effective linear method to estimate the absolute scale, followed by the intensity-based optimization stage that aligns the left and right DP images by shifting them back toward each other using cross-view blur kernels. Experiments demonstrate the effectiveness of the proposed approach across diverse scenes captured with different cameras and lenses.},
+  author = {Makabe, Lilika and Ashida, Kohei and Santo, Hiroaki and Okura, Fumio and Matsushita, Yasuyuki},
+  title = {{DP-SfM: Dual-Pixel Structure-From-Motion Without Scale Ambiguity}},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume = {48},
+  pages = {1--8},
+  month = {May},
+  year = {2026},
+  doi = {10.1109/tpami.2026.3690655},
+  url = {https://doi.org/10.1109/tpami.2026.3690655}
+}
+
+@article{matsui2026semantic,
+  abstract = {Microscopy with ultraviolet surface excitation (MUSE) enables rapid fluorescence imaging of tissue surfaces, but MUSE images differ markedly from conventional hematoxylin and eosin images, making cancer delineation challenging for routine pathological practice. We investigated the feasibility of deep learning-based semantic segmentation, which assigns a class label to each pixel, for pixel-wise breast cancer detection in MUSE images. Fresh breast tissues from 30 mastectomy patients with breast cancer were stained with terbium and Hoechst and imaged by MUSE. A total of 150 cancerous images (five per case) were manually annotated into cancerous and non-cancerous classes, and 300 non-cancerous images (ten per case) were collected. Models were trained and evaluated using five-fold nested cross-validation, comparing a cancer-only (CO) model trained solely on cancerous images with a cancer plus non-cancer (CN) model trained on both cancerous and non-cancerous images. The CO model achieved a higher Dice score than the CN model (CO, 0.7478; CN, 0.7343). Sliding window-based majority voting post-processing reduced scattered false-positive areas and improved Dice scores (CO, 0.7984; CN, 0.7849). These results support the feasibility of deep learning-based semantic segmentation for visualizing breast cancer regions and provide a basis for future quantitative applications using MUSE images.},
+  author = {Matsui, Tomoya and Nakao, Ryuta and Tomimoto, Shunsuke and Sato, Junya and Niioka, Hirohiko and Takada, Ippei and Harada, Yoshinori and Tanaka, Hideo and Konishi, Eiichi and Nagahara, Hajime and Morita, Midori and Naoi, Yasuto and Taguchi, Tetsuya and Takamatsu, Tetsuro},
+  title = {{Semantic Segmentation for Pixel-Wise Visualization of Breast Cancer in Deep Ultraviolet-Excited Fluorescence Images}},
+  journal = {Acta Histochemica et Cytochemica},
+  volume = {59},
+  number = {2},
+  pages = {101--109},
+  month = {April},
+  year = {2026},
+  doi = {10.1267/ahc.26-00007},
+  url = {https://doi.org/10.1267/ahc.26-00007}
+}
+
+@article{yoshida2026singleshot,
+  abstract = {This article introduces a novel framework that effectively resolves multipath interference (MPI) in time-of-flight (ToF) depth measurements by utilizing a single-shot time-compressive complementary metal–oxide– semiconductor (CMOS) image sensor, a U-Net-based neural network, and joint end-to-end optimization. Conventional indirect ToF (iToF) methods inevitably suffer from MPI artifacts because each detection tap integrates incoming photons over a wide exposure window, making it difficult to isolate the direct reflection component from multiple reflections or scattering. Our approach, termed coded ToF (cToF), builds upon the iToF principle but employs coded exposure patterns to capture the scene response in a single shot. This time-compressive acquisition allows for the effective separation of MPI components, achieving direct ToF (dToF)- like high accuracy using a low-cost iToF-based sensor. Furthermore, the reconstruction network and the coded shutter are jointly optimized in an end-to-end framework to maximize depth estimation accuracy while explicitly considering shutter control constraints.},
+  author = {Yoshida, Michitaka and Hayashi, Daisuke and Xing, Lioe De and Yasutomi, Keita and Kawahito, Shoji and Kagawa, Keiichiro and Nagahara, Hajime},
+  title = {{Single-Shot Efficient Depth Imaging Based on Time-Compressive CMOS Image Sensor}},
+  journal = {IEEE Sensors Journal},
+  volume = {26},
+  number = {7},
+  pages = {9493--9502},
+  month = {April},
+  year = {2026},
+  doi = {10.1109/jsen.2026.3655349},
+  url = {https://doi.org/10.1109/jsen.2026.3655349}
+}
+
+@article{chan2026instancewise,
+  author = {Chan, Weng Ian and Santo, Hiroaki and Matsushita, Yasuyuki and Okura, Fumio},
+  title = {{Instance-wise distribution control of text-to-image diffusion models}},
+  journal = {Pattern Recognition},
+  volume = {172},
+  pages = {112614--112614},
+  month = {April},
+  year = {2026},
+  doi = {10.1016/j.patcog.2025.112614},
+  url = {https://doi.org/10.1016/j.patcog.2025.112614}
+}
+
+@inproceedings{riccio2026imageset2text,
+  abstract = {In the era of large-scale visual data, understanding collections of images is a challenging yet important task. To this end, we introduce ImageSet2Text, a novel method to automatically generate natural language descriptions of image sets. Based on large language models, visual-question answering chains, an external lexical graph, and CLIP-based verification, ImageSet2Text iteratively extracts key concepts from image subsets and organizes them into a structured concept graph. We conduct extensive experiments evaluating the quality of the generated descriptions in terms of accuracy, completeness, and user satisfaction. We also examine the method's behavior through ablation studies, scalability assessments, and failure analyses. Results demonstrate that ImageSet2Text combines data-driven AI and symbolic representations to reliably summarize large image collections for a wide range of applications.},
+  author = {Riccio, Piera and Galati, Francesco and Schweighofer, Kajetan and Garcia, Noa and Oliver, Nuria},
+  title = {{ImageSet2Text: Describing Sets of Images through Text}},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume = {40},
+  number = {11},
+  pages = {8731--8739},
+  month = {March},
+  year = {2026},
+  doi = {10.1609/aaai.v40i11.37826},
+  url = {https://doi.org/10.1609/aaai.v40i11.37826}
+}
+
+@article{yang2026talking,
+  abstract = {Understanding animal actions and interactions is essential for behavior analysis and ecological monitoring. Although large-scale in-the-wild datasets have advanced animal action recognition, existing methods still struggle with fine-grained motion, spatial relations, and multi-individual interactions. To address these challenges, we introduce AIRA, a unified framework for Action and Interaction Recognition in Animals. Built upon a vision–language model (VLM), AIRA learns in an action-centered representation space defined by body parts and their corresponding motions, thereby improving robustness to background noise and enabling cross-species generalization via a unified mammal-centric part ontology. To model actions, we treat body parts and motion as primary cues and introduce Actionbit tokens—compact representations for parts and motions generated by a large language model (LLM) that encode which parts move and how. We further propose Part-Enhanced Prompt Fine-tuning (PEPF) to make the VLM explicitly sensitive to part and pose cues. Within PEPF, the Action–actionbit Alignment (AbA) module enriches action representations with fine-grained part–motion semantics, and Part-Vision Prompting (PVP) extracts keyframes through action-aware prompting. Experiments across multiple benchmarks show consistent improvements in both action and interaction recognition, highlighting the importance of action-centered adaptation and relational reasoning for understanding animal behavior in the wild.},
+  author = {Yang, Yang and Nakagawa, Ren and Shinoda, Risa and Santo, Hiroaki and Oyama, Kenji and Ohkawa, Takenao and Okura, Fumio},
+  title = {{Talking with Actionbits—A Part-Enhanced VLM for Action and Interaction Recognition in Animals}},
+  journal = {Sensors},
+  volume = {26},
+  month = {March},
+  year = {2026},
+  doi = {10.3390/s26061969},
+  url = {https://doi.org/10.3390/s26061969}
+}
+
+@inproceedings{nakagawa2026interactionviaactions,
+  abstract = {This paper introduces a method and application for automatically detecting behavioral interactions between grazing cattle from a single image, which is essential for smart livestock management in the cattle industry, such as for detecting estrus. Although interaction detection for humans has been actively studied, a non-trivial challenge lies in cattle interaction detection, specifically the lack of a comprehensive behavioral dataset that includes interactions, as the interactions of grazing cattle are rare events. We, therefore, propose CattleAct, a data-efficient method for interaction detection by decomposing interactions into the combinations of actions by individual cattle. Specifically, we first learn an action latent space from a large-scale cattle action dataset. Then, we embed rare interactions via the fine-tuning of the pre-trained latent space using contrastive learning, thereby constructing a unified latent space of actions and interactions. On top of the proposed method, we develop a practical working system integrating video and GPS inputs. Experiments on a commercial-scale pasture demonstrate the accurate interaction detection achieved by our method compared to the baselines. Our implementation is available at https://github.com/rakawanegan/CattleAct.},
+  author = {Nakagawa, Ren and Yang, Yang and Shinoda, Risa and Santo, Hiroaki and Oyama, Kenji and Okura, Fumio and Ohkawa, Takenao},
+  title = {{Interaction-via-Actions: Cattle Interaction Detection with Joint Learning of Action-Interaction Latent Space}},
+  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  pages = {1979--1988},
+  month = {March},
+  year = {2026},
+  doi = {10.1109/WACV61042.2026.00197},
+  url = {https://doi.org/10.1109/WACV61042.2026.00197}
+}
+
+@inproceedings{xing2026zeroshot,
+  abstract = {Foundation segmentation models achieve reasonable leaf instance extraction from top-view crop images without training (i.e., zero-shot). However, segmenting entire plant individuals with each consisting of multiple overlapping leaves remains challenging. This problem is referred to as a hierarchical segmentation task, typically requiring annotated training datasets that are often species-specific and require significant human labor. To address this, we introduce ZeroPlantSeg, a zero-shot segmentation for rosette-shaped plant individuals from top-view images. We integrate a foundation segmentation model, extracting leaf instances, and a vision-language model, reasoning about plants’ structures to extract plant individuals without additional training. Evaluations on datasets with multiple plant species, growth stages, and shooting environments demonstrate that our method surpasses existing zero-shot methods and achieves better cross-domain performance than supervised methods. Implementations are available at https://github.com/JunhaoXing/ZeroPlantSeg.},
+  author = {Xing, Junhao and Miyakawa, Ryohei and Yang, Yang and Liu, Xin-Peng and Shinoda, Risa and Santo, Hiroaki and Toda, Yosuke and Okura, Fumio},
+  title = {{Zero-shot Hierarchical Plant Segmentation via Foundation Segmentation Models and Text-to-image Attention}},
+  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  pages = {2510--2519},
+  month = {March},
+  year = {2026},
+  doi = {10.1109/WACV61042.2026.00247},
+  url = {https://doi.org/10.1109/WACV61042.2026.00247}
+}
+
+@article{ji2026smile,
+  abstract = {Prolonged loneliness in older adults increases the risk of dementia, cardiovascular diseases, and premature death. However, timely detection and behavioral pattern analysis are challenging due to the slow progression of loneliness and diverse individual lifestyles. To address these barriers, we propose SMILE, an end-to-end framework for sensor-driven detection and counterfactual pattern analysis of loneliness. Our approach uses non-intrusive sensors to passively observe behavior and build a personalized profile over time. When SMILE detects meaningful changes in activity patterns, it employs generative models to produce counterfactual sensor profiles—synthetic representations of behavior predicted to result in lower loneliness scores. Suggested pattern changes are identified as the difference between observed and counterfactual profiles, highlighting the behaviors most associated with loneliness. We conducted a 6-month feasibility study with 18 participants from the United States and 15 from Japan to develop and evaluate SMILE. Our framework integrates a Time-series Transformer (TST) model for loneliness detection, which achieved 96.25% accuracy, and a diffusion model for generating behavioral explanations, which outperformed a baseline by up to 76.69%. These findings highlight the potential of SMILE to support sensor-driven, personalized loneliness detection and behavioral explanation in aging populations.},
+  author = {Ji, Xia-Yan and Yuh, Ahhyun and Erdélyi, Viktor and Mizumoto, Teruhiro and Choi, Hyonyoung and Harrison, Sean and Cho, Emma and Suehiro, Takashi and Nakagawa, Takeshi and Cheng, Yu-Tian and Gondo, Yasuyuki and Nagahara, Hajime and Higashino, Teruo and Demiris, George and Sokolsky, Oleg and Lee, Insup},
+  title = {{SMILE: Sensor Data-driven Detection and Counterfactual Pattern Analysis for Loneliness in Older Adults}},
+  journal = {ACM Transactions on Computing for Healthcare},
+  volume = {7},
+  pages = {1 -- 30},
+  month = {February},
+  year = {2026},
+  doi = {10.1145/3788684},
+  url = {https://doi.org/10.1145/3788684}
+}
+
+@article{kawachi2026singleimage,
+  abstract = {We propose a single-snapshot coded-aperture depth-from-defocus (DFD) method that reconstructs RGBD by posterior-guided diffusion, combining a learned RGBD diffusion prior with a differentiable DFD forward model. Given a measurement, we approximately sample from the posterior induced by the forward model (data fidelity) and the diffusion prior, using a denoise–correct–renoise procedure that applies data-consistency updates in the denoised domain. Unlike U-Net–style regressors, our approach requires no paired defocus–RGBD training data and does not couple training to a specific camera configuration. Experiments on comprehensive simulations and a prototype camera show stable RGBD reconstructions across noise levels, outperforming U-Net baselines and a classical coded-aperture DFD method.Our implementation and experimental configuration will be released publicly upon publication.},
+  author = {Kawachi, Hodaka and Silva Neto, José Reinaldo Cunha Santos A. V. and Yagi, Yasushi and Nagahara, Hajime and Nakamura, Tomoya},
+  title = {{Single-Image Depth From Defocus With Coded Aperture and Diffusion Posterior Sampling}},
+  journal = {IEEE Transactions on Computational Imaging},
+  volume = {12},
+  pages = {1034--1045},
+  year = {2026},
+  doi = {10.1109/tci.2026.3697618},
+  url = {https://doi.org/10.1109/tci.2026.3697618}
+}
+
+@article{mizumoto2026iotbased,
+  abstract = {Social isolation and loneliness pose critical health risks to elderly populations, with mortality impacts that rival smoking and obesity. The COVID-19 pandemic has intensified these risks and exposed the limitations of current monitoring approaches. Most sensor-based monitoring systems remain impractical for wide deployment due to their complex maintenance needs and heavy technical overhead. They often demand dense sensor networks, frequent interventions, and substantial infrastructure - barriers that prevent adoption beyond controlled research settings. To address these challenges, we present a simplified sensing system that enables practical monitoring of elderly loneliness across different cultural contexts. Our approach uses a small set of carefully chosen sensors to capture key behavioral indicators while minimizing maintenance needs. Tests with 33 participants across Japan and US senior communities demonstrate practical accuracy (MAE = 3.98 for Japan and MAE = 6.35 for the US) with significantly reduced complexity. Post-deployment feedback revealed high system acceptability and low privacy concerns among participants, supporting the feasibility of long-term monitoring. The deployments revealed several differences in how social isolation manifests across cultures - from sleep patterns to activity rhythms. Through systematic feature selection based on these behavioral differences, we achieved improved predictive performance. We detail the technical architecture, deployment methods, and maintenance protocols needed for community-scale implementation. Our results show that effective elderly monitoring is possible without a large number of sensors, opening the path for sustainable, community-managed deployments.},
+  author = {Mizumoto, Teruhiro and Erdélyi, Viktor and Ji, Xia-Yan and Yuh, Ahhyun and Nakagawa, Takeshi and Suehiro, Takashi and Nagahara, Hajime and Gondo, Yasuyuki and Demiris, George and Sokolsky, Oleg and Lee, Insup and Higashino, Teruo},
+  title = {{IoT-Based Loneliness Monitoring for Older Adults: Lessons From Japanese and US Communities}},
+  journal = {IEEE Access},
+  volume = {14},
+  pages = {30491--30512},
+  year = {2026},
+  doi = {10.1109/ACCESS.2026.3667333},
+  url = {https://doi.org/10.1109/ACCESS.2026.3667333}
+}
+
+@article{kagawa2026ultrafast,
+  abstract = {Ultrafast time-compressive CMOS image sensors based on multitap charge modulators can capture light-in flight using coded exposure masks on the focal plane. Transient images can then be reconstructed using iterative methods or deep learning models. Although the image sensor is based on indirect time-of-flight (ToF) image sensors, the reconstructed images are equivalent to those captured by direct ToF (D-ToF) image sensors. Important design parameters of the image sensor include the pixel block size and the number of taps of the charge modulator. Several constraints regarding the charge transfer of the multitap charge modulator, the hamming distance between exposure codes at adjacent timings, and the minimal time window duration must be considered when designing exposure codes. The influence of these factors on the fidelity of the reconstructed images is analyzed numerically. The results show that a pixel block size of $4\times 4$ is optimal and that four or more taps are required for light detection and ranging (LiDAR) applications when 32 transient images of light-in flight are reconstructed. To demonstrate LiDAR in a scene with multipath interference, two objects were observed through a weakly diffusive sheet. The temporal resolution, as defined by the clock period of the exposure codes, was 1.65 ns. Multiple reflections were reconstructed using an iterative method (TVAL3) and a deep learning model (ADMM-Net). Although the waveforms of optical pulses reconstructed by TVAL3 are distorted, the amplitudes are more accurate. Conversely, although ADMM-Net reconstructs sharper optical pulses, the amplitudes are inaccurate. To achieve the shorter temporal resolution required for time-resolved diffuse optical tomography (DOT) and fluorescence lifetime imaging (FLIm), the feasibility of heterodyne compression was demonstrated through simulation.},
+  author = {Kagawa, Keiichiro and Hayashi, Daisuke and Takakura, Arashi and Umeki, Yuto and Yoshida, Michitaka and Yasutomi, Keita and Kawahito, Shoji and Chae, Youngcheol and Nagahara, Hajime},
+  title = {{Ultrafast Time-Compressive CMOS Image Sensors Based on Multitap Charge Modulators for Filming Light-In Flight}},
+  journal = {IEEE Open Journal of the Solid-State Circuits Society},
+  volume = {6},
+  pages = {47--60},
+  year = {2026},
+  doi = {10.1109/OJSSCS.2026.3660622},
+  url = {https://doi.org/10.1109/OJSSCS.2026.3660622}
+}
+
+@inproceedings{wei2026emma,
+  abstract = {The widespread adoption of text-to-image (T2I) generation has raised concerns about privacy, bias, and copyright violations. Concept erasure techniques offer a promising solution by selectively removing undesired concepts from pre-trained models without requiring full retraining. However, these methods are often evaluated on a limited set of concepts, relying on overly simplistic and direct prompts. To test the boundaries of concept erasure techniques, and assess whether they truly remove targeted concepts from model representations, we introduce EMMA, a benchmark that evaluates five key dimensions of concept erasure over 13 metrics. EMMA goes beyond standard metrics like image quality and time efficiency, testing robustness under challenging conditions, including indirect descriptions, visually similar non-target concepts, and potential gender and ethnicity bias, providing a socially aware analysis of method behavior. Using EMMA, we analyze five concept erasure methods across five domains (objects, celebrities, art styles, NSFW, and copyright). Our results show that existing methods struggle with implicit prompts (i.e., generating the erased concept when it is indirectly referenced) and visually similar non-target concepts (i.e., failing to generate non-target concepts resembling the erased one), while some amplify gender and ethnicity bias compared to the original model. Code and prompts are available at https://github.com/lobsterlulu/EMMA.},
+  author = {Wei, Lu and Nakashima, Yuta and Garcia, Noa},
+  title = {{EMMA: Concept Erasure Benchmark with Comprehensive Semantic Metrics and Diverse Categories}},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  volume = {abs/2512.17320},
+  year = {2026},
+  url = {https://arxiv.org/abs/2512.17320}
+}
+
+@inproceedings{yamaguchi2025gazebased,
+  author = {Yamaguchi, Tomoki and Nagahara, Hajime and Takemura, Noriko},
+  title = {{Gaze-Based Estimation of Activity Levels in Cooperative Learning Using Camera Images}},
+  booktitle = {Pattern Recognition and Computer Vision (PRCV)},
+  pages = {164--176},
+  month = {December},
+  year = {2025},
+  doi = {10.1007/978-981-95-4398-4_12},
+  url = {https://doi.org/10.1007/978-981-95-4398-4_12}
+}
+
+@article{li2025simultaneous,
+  author = {Li, Chen-Hao and Ngô, Trung Thành and Nagahara, Hajime},
+  title = {{Simultaneous acquisition of geometry and material for translucent objects}},
+  journal = {Image and Vision Computing},
+  volume = {164},
+  pages = {105793--105793},
+  month = {December},
+  year = {2025},
+  doi = {10.1016/j.imavis.2025.105793},
+  url = {https://doi.org/10.1016/j.imavis.2025.105793}
+}
+
+@article{asada2025leafgen,
+  abstract = {Instance segmentation of plant leaves plays a crucial role in plant phenotyping, leveraging the rapid advancements in neural network research. A significant challenge in leaf instance segmentation lies in the preparation of training datasets, which typically require manual annotations comprising numerous pairs of ground-truth masks and corresponding plant photographs. Recently, segmentation models pre-trained on large-scale datasets, e.g., Segment Anything, have enabled training-free (i.e., zero-shot) instance segmentation accessible to the public. However, applying these models to leaf segmentation often yields unsatisfactory results, as the training datasets for these foundation models may lack sufficient plant imagery to accurately segment leaves exhibiting heavy occlusions and similar textures. To address this issue, we propose a fully automatic method for generating training datasets for leaf instance segmentation, combining an off-the-shelf zero-shot model with structure-aware image generation. Specifically, given a set of plant images and an L-system growth rule representing the structural pattern of the target plant, the proposed method automatically produces an arbitrary number of instance mask and photorealistic plant image pairs, eliminating the need for manual annotation. To maximize usability, we also provide a GUI front-end that integrates the entire pipeline of our method. Experiments on Arabidopsis, Komatsuna, and Rhaphiloepsis plants demonstrate that our method achieves more accurate segmentation compared to state-of-the-art zero-shot models, attaining AP@50 scores of 74.8, 76.0, and 88.2 for leaf instance segmentation of Arabidopsis, Komatsuna, and Rhaphiloepsis, respectively—without any manual annotation.},
+  author = {Asada, Naoki and Liu, Xin-Peng and Xu, Kanyu and Miyakawa, Ryohei and Yang, Yang and Santo, Hiroaki and Toda, Yosuke and Okura, Fumio},
+  title = {{LeafGen: Structure-aware Leaf Image Generation for Annotation-free Leaf Instance Segmentation}},
+  journal = {Plant Phenomics},
+  volume = {7},
+  number = {4},
+  pages = {100092--100092},
+  month = {December},
+  year = {2025},
+  doi = {10.1016/j.plaphe.2025.100092},
+  url = {https://doi.org/10.1016/j.plaphe.2025.100092}
+}
+
+@inproceedings{ramos2025processing,
+  abstract = {Prior work has analyzed the robustness of visual encoders to image transformations and corruptions, particularly in cases where such alterations are not seen during training. When this occurs, they introduce a form of distribution shift at test time, often leading to performance degradation. The primary focus has been on severe corruptions that, when applied aggressively, distort useful signals necessary for accurate semantic predictions. We take a different perspective by analyzing parameters of the image acquisition process and transformations that may be subtle or even imperceptible to the human eye. We find that such parameters are systematically encoded in the learned visual representations and can be easily recovered. More strikingly, their presence can have a profound impact, either positively or negatively, on semantic predictions. This effect depends on whether there is a strong correlation or anti-correlation between semantic labels and these acquisition-based or processing-based labels. Our code and data are available at: https://github.com/ryan-caesar-ramos/visual-encoder-traces},
+  author = {Ramos, Ryan and Stojnić, Vladan and Kordopatis-Zilos, Giorgos and Nakashima, Yuta and Tolias, Giorgos and Garcia, Noa},
+  title = {{Processing and Acquisition Traces in Visual Encoders: What Does CLIP Know About Your Camera?}},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages = {17056--17066},
+  month = {October},
+  year = {2025},
+  doi = {10.1109/ICCV51701.2025.01584},
+  url = {https://doi.org/10.1109/ICCV51701.2025.01584}
+}
+
+@inproceedings{hirota2025bias,
+  abstract = {Gender bias in vision-language foundation models (VLMs) raises concerns about their safe deployment and is typically evaluated using benchmarks with gender annotations on real-world images. However, as these benchmarks often contain spurious correlations between gender and non-gender features, such as objects and backgrounds, we identify a critical oversight in gender bias evaluation: Do spurious features distort gender bias evaluation? To address this question, we systematically perturb non-gender features across four widely used benchmarks (COCO-gender, FACET, MIAP, and PHASE) and various VLMs to quantify their impact on bias evaluation. Our findings reveal that even minimal perturbations, such as masking just 10 % of objects or weakly blurring backgrounds, can dramatically alter bias scores, shifting metrics by up to 175 % in generative VLMs and 43 % in CLIP variants. This suggests that current bias evaluations often reflect model responses to spurious features rather than gender bias, undermining their reliability. Since creating spurious feature-free benchmarks is fundamentally challenging, we recommend reporting bias metrics alongside feature-sensitivity measurements to enable a more reliable bias assessment.},
+  author = {Hirota, Yusuke and Hachiuma, Ryo and Li, Bo-Yi and Lu, Ximing and Boone, Michael and Ivanovic, Boris and Choi, Yejin and Pavone, Marco and Wang, Yu-Chiang Frank and Garcia, Noa and Nakashima, Yuta and Yang, Chao-Han Huck},
+  title = {{Bias in Gender Bias Benchmarks: How Spurious Features Distort Evaluation}},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages = {8634--8644},
+  month = {October},
+  year = {2025},
+  doi = {10.1109/ICCV51701.2025.00808},
+  url = {https://doi.org/10.1109/ICCV51701.2025.00808}
+}
+
+@inproceedings{yang2025neuraleaf,
+  abstract = {We develop a neural parametric model for 3D leaves for plant modeling and reconstruction that are essential for agriculture and computer graphics. While neural parametric models are actively studied for humans and animals, plant leaves present unique challenges due to their diverse shapes and flexible deformation. To this problem, we introduce a neural parametric model for leaves, NeuraLeaf. Capitalizing on the fact that flattened leaf shapes can be approximated as a 2D plane, NeuraLeaf disentangles the leaves' geometry into their 2D base shapes and 3D deformations. This representation allows learning from rich sources of 2D leaf image datasets for the base shapes, and also has the advantage of simultaneously learning textures aligned with the geometry. To model the 3D deformation, we propose a novel skeleton-free skinning model and create a newly captured 3D leaf dataset called DeformLeaf. We show that NeuraLeaf successfully generates a wide range of leaf shapes with deformation, resulting in accurate model fitting to 3D observations like depth maps and point clouds. Our implementation and dataset are available at https://neuraleaf-yang.github.io/.},
+  author = {Yang, Yang and Mao, Dongni and Santo, Hiroaki and Matsushita, Yasuyuki and Okura, Fumio},
+  title = {{NeuraLeaf: Neural Parametric Leaf Models with Shape and Deformation Disentanglement}},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages = {28167--28176},
+  month = {October},
+  year = {2025},
+  doi = {10.1109/ICCV51701.2025.02615},
+  url = {https://doi.org/10.1109/ICCV51701.2025.02615}
+}
+
+@inproceedings{makabe2025spectral,
+  abstract = {This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our method outperforms conventional reference target-based methods, underscoring its effectiveness and practicality.},
+  author = {Makabe, Lilika and Santo, Hiroaki and Okura, Fumio and Brown, Michael S. and Matsushita, Yasuyuki},
+  title = {{Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating}},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages = {27252--27261},
+  month = {October},
+  year = {2025},
+  doi = {10.1109/ICCV51701.2025.02530},
+  url = {https://doi.org/10.1109/ICCV51701.2025.02530}
+}
+
+@inproceedings{hayashi2025highfidelity,
+  abstract = {We have proposed charge-domain time-compressive LiDAR image sensors that compress the scene response using an indirect time-of-flight (ToF) sensor and compressive sensing. The scene's impulse response is reconstructed in post-processing. Because these image sensors are based on an indirect ToF sensor using multitap charge modulators, they are suitable for high spatial resolution. They can achieve high distance measurement accuracy by reconstructing the scene response to estimate ToF. Since the ToF estimation relies on the reconstructed scene response, its fidelity is crucial. In this paper, we compared a deep learning model inspired by an iterative optimization method with a conventional total variation-based iterative method. We assumed an application to autonomous robotic vacuum cleaners in which multipath interference between the floor and the wall may introduce significant depth errors. In both simulations and experiments, we confirmed that regularization based on a U-Net in ADMM-Net achieves higher fidelity in the reconstructed waveform than TVAL3.},
+  author = {Hayashi, Daisuke and Yoshida, Michitaka and Teranishi, Nobukazu and Yasutomi, Keita and Kawahito, Shoji and Nagahara, Hajime and Kagawa, Keiichiro},
+  title = {{High-Fidelity Scene Response Reconstruction For Flash Lidar Using Charge-Domain Time-Compressive Tof Image Sensor}},
+  booktitle = {Proceedings of the IEEE International Conference on Image Processing (ICIP)},
+  pages = {404--409},
+  month = {September},
+  year = {2025},
+  doi = {10.1109/ICIPW68931.2025.11386204},
+  url = {https://doi.org/10.1109/ICIPW68931.2025.11386204}
+}
+
+@article{zhang2025einmemo,
+  abstract = {Large-scale models trained on extensive datasets have become the standard due to their strong generalizability across diverse tasks. In-context learning (ICL), widely used in natural language processing, leverages these models by providing task-specific prompts without modifying their parameters. This paradigm is increasingly being adapted for computer vision, where models receive an input–output image pair, known as an in-context pair, alongside a query image to illustrate the desired output. However, the success of visual ICL largely hinges on the quality of these prompts. To address this, we propose Enhanced Instruct Me More (E-InMeMo), a novel approach that incorporates learnable perturbations into in-context pairs to optimize prompting. Through extensive experiments on standard vision tasks, E-InMeMo demonstrates superior performance over existing state-of-the-art methods. Notably, it improves mIoU scores by 7.99 for foreground segmentation and by 17.04 for single object detection when compared to the baseline without learnable prompts. These results highlight E-InMeMo as a lightweight yet effective strategy for enhancing visual ICL.},
+  author = {Zhang, Jiahao and Wang, Bo-Wen and Liu, Hong and Li, Liang-Zhi and Nakashima, Yuta and Nagahara, Hajime},
+  title = {{E-InMeMo: Enhanced Prompting for Visual In-Context Learning}},
+  journal = {Journal of Imaging},
+  volume = {11},
+  month = {July},
+  year = {2025},
+  doi = {10.3390/jimaging11070232},
+  url = {https://doi.org/10.3390/jimaging11070232}
+}
+
+@article{matsuura2025selective,
+  abstract = {Polyploidy is frequently observed in cancer cells and is closely associated with chromosomal instability, which can lead to cancer progression. Polyploid cancers are more aggressive than diploid cancers, and polyploidy has been shown to be a prognostic marker for hepatocellular carcinoma (HCC). However, polyploidy is challenging to diagnose. Currently, no clinically implementable methods are available for diagnosing polyploidy in cancer. We established a method for assessing polyploidization in HCC using deep-learning-based artificial intelligence image recognition models to assess hematoxylin and eosin-stained pathological images. Using 44 HCCs whose ploidy status had been determined by chromosome fluorescence in situ hybridization, we evaluated the ability of our constructed deep learning models to detect HCC ploidy. We then tested the models on an independent group of 169 liver cancers and applied them to a publicly available dataset. Here we show that our constructed models effectively assess HCC ploidy in a separate cohort and identify a subset with poor prognosis based on the ploidy determinations for 169 HCCs. Our pipeline also identifies HCCs with poor prognosis in the external dataset, with a more significant difference than that for ploidy inferences by genomic analysis. By exploiting the high processing capacity of artificial intelligence, new aspects of polyploid HCC, such as the high prevalence of scirrhous structures, are identified. Our findings suggest that ploidy assessment using artificial intelligence-based pathological image recognition can serve as a novel diagnostic tool for personalized medicine. Cancer cells often have extra sets of chromosomes, a condition called polyploidy. Although polyploidy can be a prognostic marker for liver cancer, there is currently no simple way to detect it in clinical settings. In this study, we developed an artificial intelligence (AI) system that can analyze standard pathology images to assess polyploidy in liver cancer. Our AI accurately identified cases with poorer outcomes based on their polyploidy status, both in our own data and in public datasets. This approach could offer a practical and accessible tool to help doctors better understand each patient’s cancer and support more personalized treatment decisions. Matsuura et al. develop an artificial intelligence-based image recognition model that assesses polyploidy in liver cancer using routine pathology slides. The model identifies polyploid tumors associated with poor prognosis more effectively than genomic-based methods.},
+  author = {Matsuura, Takanori and Abe, Masatoshi and Harada, Yoshiyuki and Kido, Masahiro and Nagahara, Hajime and Kodama, Yuzo and Ueda, Yoshihide and Hara, Eiji and Niioka, Hirohiko and Matsumoto, Tomonori},
+  title = {{Selective identification of polyploid hepatocellular carcinomas with poor prognosis by artificial intelligence-based pathological image recognition}},
+  journal = {Communications Medicine},
+  volume = {5},
+  number = {279},
+  month = {July},
+  year = {2025},
+  doi = {10.1038/s43856-025-00967-8},
+  url = {https://doi.org/10.1038/s43856-025-00967-8}
+}
+
+@inproceedings{chen2025selfsupervised,
+  abstract = {Lattice light-sheet microscopy illuminates specimens with a thin light sheet to reduce image degradation caused by light scattering, unlike conventional uniform illumination. However, this approach is still unable to fully eliminate the blur introduced by the optical system. To address this problem, non-blind deconvolution techniques, such as Richardson-Lucy, are commonly used but they often introduce noise artifacts while deep supervised learning approaches require costly ground truth data. In this paper, we propose a self-supervised learning framework that explicitly integrates the imaging model with 3D neural network for reconstructing high-quality images without ground truth data by leveraging the optics of the microscopy and its point spread function. Extensive experiments demonstrate our superior performance over baseline algorithm both quantitatively and qualitatively.},
+  author = {Chen, Zi-Yi and Suetsugu, Shiro and Mimori-Kiyosue, Yuko and Nagahara, Hajime},
+  title = {{Self-supervised 3D Image Deblurring for Lattice Light Sheet Microscopy}},
+  booktitle = {Proceedings of the International Conference on Machine Vision Applications (MVA)},
+  pages = {1--6},
+  month = {July},
+  year = {2025},
+  doi = {10.23919/MVA65244.2025.11175111},
+  url = {https://doi.org/10.23919/MVA65244.2025.11175111}
+}
+
+@inproceedings{liu2025deep,
+  author = {Liu, Yi and Kumawat, Sudhakar and Nagahara, Hajime},
+  title = {{Deep Hardware Modality Fusion for Image Segmentation}},
+  booktitle = {Proceedings of the International Conference on Pattern Recognition (ICPR)},
+  pages = {439--454},
+  month = {July},
+  year = {2025},
+  doi = {10.1007/978-3-031-78183-4_28},
+  url = {https://doi.org/10.1007/978-3-031-78183-4_28}
+}
+
+@inproceedings{wei2025cracking,
+  abstract = {The internet has become a hotspot for hate speech (HS), threatening societal harmony and individual well-being. While automatic detection methods perform well in identifying explicit hate speech (ex-HS), they struggle with more subtle forms, such as implicit hate speech (im-HS). We tackle this problem by introducing a new taxonomy for im-HS detection, defining six encoding strategies named codetypes. We present two methods for integrating codetypes into im-HS detection: 1) prompting large language models (LLMs) directly to classify sentences based on generated responses, and 2) using LLMs as encoders with codetypes embedded during the encoding process. Experiments show that the use of codetypes improves im-HS detection in both Chinese and English datasets, validating the effectiveness of our approach across different languages.},
+  author = {Wei, Lu and Li, Liangzhi and Xiang, Tong and Liu, Xiao and Garcia, Noa},
+  title = {{Cracking the Code: Enhancing Implicit Hate Speech Detection through Coding Classification}},
+  booktitle = {Proceedings of the 5th Workshop on Trustworthy NLP (TrustNLP 2025)},
+  volume = {abs/2506.04693},
+  pages = {112--126},
+  month = {June},
+  year = {2025},
+  doi = {10.18653/v1/2025.trustnlp-main.9},
+  url = {https://doi.org/10.18653/v1/2025.trustnlp-main.9}
+}
+
+@article{qian2025built,
+  abstract = {Analysis of cultural heritages, particularly their construction years, provides new insights into human history. However, due to natural disasters, wars, material deterioration, and human errors, records documenting the construction years of many artifacts have often been lost. Historians and experts can estimate construction years within specific ranges using chemical-based analysis technologies or extensive historical research. Given the vast number of collected artifacts, applying these conventional methods to every artifact is impractical. To address this challenge, we developed a deep neural network model designed for Buddha statues to estimate an artifact’s construction year from its image. One major challenge in this task is the heterogeneity of the labels: the training samples include both precise construction years and possible ranges (e.g., a dynasty or a century) estimated by historians. To unify these heterogeneous labels during training, we represent them as probabilistic distributions. In our previous work Qian et al. (2021), we assumed that the ambiguity in heterogeneous construction year labels followed a Gaussian distribution, assigning the highest likelihood to the midpoint of the designated time range. However, this assumption does not always hold. In this paper, we propose representing heterogeneous construction year labels as a uniform distribution, assigning equal probability to all points within the designated time range. Based on this label representation, we designed a semi-supervised learning loss function to leverage both labeled and unlabeled samples during training. Our experimental results demonstrate that our method achieves a mean absolute error of 34.3 years on a test set consisting of Buddha statues constructed between 400 and 1403. These results are further analyzed in two ways. First, we compared our model’s performance to the image quality BRISQUE score, revealing a correlation between higher image quality and lower prediction error rates. Second, we validated our predictions with experts, assessing the level of agreement with our model, the challenges in determining construction years, and identifying features of interest in the artifacts.},
+  author = {Qian, Yiming and El Vaigh, Cheikh Brahim and Nakashima, Yuta and Renoust, Benjamin and Nagahara, Hajime and Fujioka, Yutaka},
+  title = {{Built year prediction of buddha face with heterogeneous label modeled as probabilistic distribution}},
+  journal = {Multimedia Tools and Applications},
+  volume = {84},
+  pages = {39427 -- 39450},
+  month = {April},
+  year = {2025},
+  doi = {10.1007/s11042-025-20784-4},
+  url = {https://doi.org/10.1007/s11042-025-20784-4}
+}
+
+@article{pang2025pixcon,
+  abstract = {Contrastive image representation learning has been essential for pre-training vision foundation models to deliver excellent transfer learning performance. It was originally developed based on instance discrimination, which focuses on instance-level recognition tasks. Lately, the focus has shifted to directly working on the dense spatial features to improve transfer performance on dense prediction tasks such as object detection and semantic segmentation, for which pixel-level and region-level contrastive learning methods have been proposed. Region-level methods usually employ region-mining algorithms to capture holistic regional semantics and address the issue of semantically inconsistent scene image crops, as they assume that pixel-level learning struggles with both. In this paper, we revisit pixel-level learning’s potential and show that (1) it can effectively and more efficiently learn holistic regional semantics and (2) it intrinsically provides tools to mitigate the impact of semantically inconsistent views involved with scene-level training images. We prove this by proposing PixCon, a pixel-level contrastive learning framework, and testing different positive matching strategies based on this framework to rediscover the potential of pixel-level learning. Additionally, we propose a novel semantic reweighting approach tailored for pixel-level learning-based scene image pre-training, which outperforms or matches the performance of previous region-level methods in object detection and semantic segmentation tasks across multiple benchmarks.},
+  author = {Pang, Zong-Shang and Nakashima, Yuta and Otani, Mayu and Nagahara, Hajime},
+  title = {{PixCon: Pixel-Level Contrastive Learning Revisited}},
+  journal = {Electronics},
+  volume = {14},
+  number = {8},
+  pages = {1623--1623},
+  month = {April},
+  year = {2025},
+  doi = {10.3390/electronics14081623},
+  url = {https://doi.org/10.3390/electronics14081623}
+}
+
+@article{khatun2025rgbimagebased,
+  abstract = {The aim of this study is to validate an approach to monitor the spatial and temporal hemodynamics of intraperitoneal organs using a commercially available laparoscopic system. The approach to create a spatial map of tissue oxygen saturation (StO2) and total hemoglobin concentration (C HbT) is based on a multiple regression model using Monte Carlo simulation of light transport in tissues to specify relationships between RGB values, oxygenated hemoglobin concentration, and deoxygenated hemoglobin concentration. Experiments with an optical phantom are performed to confirm the ability of the approach to detect changes in StO2 and C HbT under different working distances of the endoscope that may occur during actual surgery. In vivo experiments in rats confirm that the proposed approach can quantitatively monitor changes in StO2 and C HbT induced in the small intestine, liver, and cecum. The proposed approach has the potential as a tool for monitoring intraperitoneal organs in real time during laparoscopy.},
+  author = {Khatun, Rokeya and Suzuki, Yurika and Kashiwagi, Koyuki and Nagahama, Yuki and Ikeda, Tetsuo and Nagahara, Hajime and Nishidate, Izumi},
+  title = {{RGB‐Image‐Based Real‐Time Hemodynamic Monitoring of Intraperitoneal Organs in Rats Using a Standard Laparoscopic Imaging System}},
+  journal = {Journal of Biophotonics},
+  volume = {18},
+  month = {April},
+  year = {2025},
+  doi = {10.1002/jbio.70030},
+  url = {https://doi.org/10.1002/jbio.70030}
+}
+
+@article{tanabe2025brain,
+  author = {Tanabe, Akifumi and Harachi, Kento and Yamamoto, Yusuke and Muramatsu, Ayumi and Nagahara, Hajime and Takemura, Noriko and Shimojo, Shinji and Furihata, Daisuke and Mizuno-Matsumoto, Yuko},
+  title = {{Brain Function Assessment of EEG in Mild Cognitive Impairment using Timelag Analysis}},
+  journal = {IEEJ Transactions on Electronics, Information and Systems},
+  volume = {145},
+  number = {4},
+  pages = {467--473},
+  month = {April},
+  year = {2025},
+  doi = {10.1541/ieejeiss.145.467},
+  url = {https://doi.org/10.1541/ieejeiss.145.467}
+}
+
+@article{koyama2025style,
+  abstract = {Endoscopic ultrasound-guided fine-needle aspiration/biopsy (EUS-FNA/B) is critical for determining treatment strategies for patients with pancreatic cancer. However, conventional pathological examination using hematoxylin and eosin (H&E) staining is time-consuming. Microscopy with ultraviolet surface excitation (MUSE) enables rapid pathological diagnosis without requiring slide preparation. This study explores the potential of combining MUSE imaging with a cycle-consistent generative adversarial network (CycleGAN), an image generation algorithm capable of learning translations without paired images, to enhance diagnostic workflows for pancreatic EUS-FNA/B. Thirty-five pancreatic specimens were stained with Terbium/Hoechst 33342, and deep ultraviolet (DUV) fluorescence images were captured by exciting the tissue surface. These fluorescence images, along with H&E-stained formalin-fixed, paraffin-embedded (FFPE) sections from the same specimens, were divided into 256 × 256-pixel segments for CycleGAN training. The algorithm was employed to translate pseudo-H&E images from MUSE test images. The pseudo-H&E images generated by the CycleGAN showed improved inter-pathologist agreement among three pathologists compared with the original MUSE images. We established a technique to perform MUSE imaging on small pancreatic samples obtained through EUS-FNA/B and confirmed that H&E-style translation using CycleGAN simplified interpretation for pathologists. Integrating MUSE imaging with CycleGAN has the potential to offer a rapid, cost-effective, and accurate diagnostic tool.},
+  author = {Koyama, Yuki and Nakao, Ryuta and Sato, Junya and Honda, Mizuki and Inamori, Osamu and Tanaka, Noriyuki and Morinaga, Yukiko and Konishi, Eiichi and Harada, Yoshinori and Tanaka, Hideo and Yasuda, Hiroaki and Itoh, Yoshito and Nagahara, Hajime and Niioka, Hirohiko and Takamatsu, Tetsuro},
+  title = {{H&E Style Translation Using CycleGAN for Deep Ultraviolet-Excitation Fluorescence Images of Pancreatic Endoscopic Ultrasound-Fine Needle Aspiration/Biopsy Toward Slide-Free Rapid Pathology}},
+  journal = {Acta Histochemica et Cytochemica},
+  volume = {58},
+  pages = {59 -- 67},
+  month = {April},
+  year = {2025},
+  doi = {10.1267/ahc.25-00007},
+  url = {https://doi.org/10.1267/ahc.25-00007}
+}
+
+@inproceedings{hayashi2025flash,
+  abstract = {We have proposed a LiDAR system that compresses the scene response in the charge domain using a compressive CMOS image sensor based on the indirect time-of-flight (i-ToF) image sensor. The accuracy of depth estimation can be improved by considering multipath interference (MPI) caused by multiple reflections and scattering of light in the ToF depth imaging. The direct ToF (d-ToF) method is less affected by MPI because it measures the scene response directly using single-photon avalanche diodes (SPADs). However, it is costly to implement d-ToF image sensors and difficult to achieve high pixel counts. In our multi-tap i-ToF image sensor, a compressed scene response is acquired at each pixel and the scene response is restored by ADMM-Net. It is processed by U-Net to estimate the MPI-corrected depth image. In the experiment, we illuminated objects through a diffusive sheet with a pulsed light source (wavelength 660nm, pulse width of 2.5ns FWHM) and captured the reflected light with our prototype sensor with 212 x 188 pixels operated at 606MHz with 32-bit exposure codes. The depth obtained by peak detection for the restored transient images exhibited the objects and the diffusive sheet separately.},
+  author = {Hayashi, Daisuke and Yoshida, Michitaka and Lioe, De Xing and Yasutomi, Keita and Kawahito, Shoji and Nagahara, Hajime and Kagawa, Keiichiro},
+  title = {{Flash LiDAR system using charge-domain time-compressive ToF CMOS image sensor and deep learning}},
+  booktitle = {Proceedings of Photonic Instrumentation Engineering XII},
+  volume = {13373},
+  pages = {37--37},
+  month = {March},
+  year = {2025},
+  doi = {10.1117/12.3040445},
+  url = {https://doi.org/10.1117/12.3040445}
+}
+
+@article{vaigh2025gnnboost,
+  abstract = {The use of AI systems for managing large-scale cultural heritage artifacts has become possible due to the rise of digitization. To classify such content, machine learning is typically used, where contextual information is important to structure the data. One way to capture context is through a knowledge graph. In this study, we propose a newd graph neural networks, we can improve artwork classification by utilizing the relationships between entities of the knowledge graph. Our experiments demonstrate that this approach achieves state-of-the-art results on multiple classification tasks across three datasets (SemArt paintings, Buddha statues, and Ukiyo-e woodblock prints). Moreover, our approach is effective in dealing with unbalanced data and we explore the use of both graph attention mechanisms and focal loss functions.},
+  author = {El Vaigh, Cheikh Brahim and Garcia, Noa and Renoust, Benjamin and Chu, Chen-Hui and Nakashima, Yuta and Qian, Yiming and Nagahara, Hajime},
+  title = {{GNNBoost: boosting artwork classification with graph embeddings}},
+  journal = {Multimedia Tools and Applications},
+  volume = {84},
+  pages = {39353 -- 39373},
+  month = {February},
+  year = {2025},
+  doi = {10.1007/s11042-025-20699-0},
+  url = {https://doi.org/10.1007/s11042-025-20699-0}
+}
+
+@inproceedings{ramos2025no,
+  abstract = {Object detection in art is a valuable tool for the digital humanities, as it allows for faster identification of objects in artistic and historical images compared to humans. However, annotating such images poses significant challenges due to the need for specialized domain expertise. We present NADA (no annotations for detection in art), a pipeline that leverages diffusion models' art-related knowledge for object detection in paintings without the need for full bounding box supervision. Our method, which supports both weakly-supervised and zero-shot scenarios and does not require any fine-tuning of its pretrained components, consists of a class proposer based on large vision-language models and a class-conditioned detector based on Stable Diffusion. NADA is evaluated on two artwork datasets, ArtDL 2.0 and IconArt, outperforming prior work in weakly-supervised detection, while being the first work for zero-shot object detection in art. Code is available at https://github.com/patrick-john-ramos/nada},
+  author = {Ramos, Patrick and Gonthier, Nicolas and Khan, Selina and Nakashima, Yuta and Garcia, Noa},
+  title = {{No Annotations for Object Detection in Art Through Stable Diffusion}},
+  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  pages = {6228--6237},
+  month = {February},
+  year = {2025},
+  doi = {10.1109/wacv61041.2025.00607},
+  url = {https://doi.org/10.1109/wacv61041.2025.00607}
+}
+
+@inproceedings{wu2025stable,
+  abstract = {Several studies have raised awareness about social biases in image generative models, demonstrating their predisposition towards stereotypes and imbalances. This paper contributes to this growing body of research by introducing an evaluation protocol that analyzes the impact of gender indicators at every step of the generation process on Stable Diffusion images. Leveraging insights from prior work, we explore how gender indicators not only affect gender presentation but also the representation of objects and layouts within the generated images. Our findings include the existence of differences in the depiction of objects, such as instruments tailored for specific genders, and shifts in overall layouts. We also reveal that neutral prompts tend to produce images more aligned with masculine prompts than their feminine counterparts. We further explore where bias originates through representational disparities and how it manifests in the images via prompt-image dependencies, and provide recommendations for developers and users to mitigate potential bias in image generation.},
+  author = {Wu, Yan-Kun and Nakashima, Yuta and Garcia, Noa},
+  title = {{Stable Diffusion Exposed: Gender Bias from Prompt to Image}},
+  booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES)},
+  pages = {1648--1659},
+  month = {February},
+  year = {2025},
+  url = {https://arxiv.org/abs/2312.03027}
+}
+
+@article{wu2025revealing,
+  abstract = {Social biases in generative models have gained increasing attention. This paper proposes an automatic evaluation protocol for text-to-image generation, examining how gender bias originates and perpetuates in the generation process of Stable Diffusion. Using triplet prompts that vary by gender indicators, we trace presentations at several stages of the generation process and explore dependencies between prompts and images. Our findings reveal the bias persists throughout all internal stages of the generating process and manifests in the entire images. For instance, differences in object presence, such as different instruments and outfit preferences, are observed across genders and extend to overall image layouts. Moreover, our experiments demonstrate that neutral prompts tend to produce images more closely aligned with those from masculine prompts than with their female counterparts. We also investigate prompt-image dependencies to further understand how bias is embedded in the generated content. Finally, we offer recommendations for developers and users to mitigate this effect in text-to-image generation.},
+  author = {Wu, Yan-Kun and Nakashima, Yuta and Garcia, Noa},
+  title = {{Revealing Gender Bias from Prompt to Image in Stable Diffusion}},
+  journal = {Journal of Imaging},
+  volume = {11},
+  number = {2},
+  pages = {35--35},
+  month = {January},
+  year = {2025},
+  doi = {10.3390/jimaging11020035},
+  url = {https://doi.org/10.3390/jimaging11020035}
+}
+
+@inproceedings{kondo2025text,
+  author = {Kondo, Risa and Teramen, Ayu and Kajikawa, Reon and Horiguchi, Koki and Kajiwara, Tomoyuki and Ninomiya, Takashi and Hayashi, Hideaki and Nakashima, Yuta and Nagahara, Hajime},
+  title = {{Text Normalization for Japanese Sentiment Analysis}},
+  booktitle = {Proceedings of the Tenth Workshop on Noisy and User-generated Text},
+  pages = {149--157},
+  year = {2025},
+  doi = {10.18653/v1/2025.wnut-1.16},
+  url = {https://doi.org/10.18653/v1/2025.wnut-1.16}
+}
+
+@inproceedings{li2025neisf,
+  abstract = {Recent inverse rendering methods have improved shape, material, and illumination reconstruction using polarization cues. However, they only support dielectrics, ignoring conductors, which are common in everyday life. Since conductors and dielectrics have different reflection properties, using previous dielectrics-based methods will lead to obvious errors. In addition, conductors are glossy, which may cause strong specular reflection and is hard to reconstruct. To solve the above issues, we propose NeISF++, an inverse rendering pipeline that supports conductors and dielectrics. The key ingredient for our proposal is a general pBRDF that describes both conductors and dielectrics. As for the strong specular reflection problem, we propose a novel geometry initialization method using DoLP images. This physical cue is invariant to intensities and thus robust to strong specular reflections. Experimental results on our synthetic and real datasets show that our method surpasses the existing polarized inverse rendering methods for geometry and material decomposition as well as downstream tasks like relighting.},
+  author = {Li, Chen-Hao and Ono, Taishi and Uemori, Takeshi and Nitta, Sho and Mihara, Hajime and Gatto, Alexander and Nagahara, Hajime and Moriuchi, Yusuke},
+  title = {{NeISF++: Neural Incident Stokes Field for Polarized Inverse Rendering of Conductors and Dielectrics}},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages = {26493--26503},
+  year = {2025},
+  doi = {10.1109/CVPR52734.2025.02467},
+  url = {https://doi.org/10.1109/CVPR52734.2025.02467}
+}
+
+@article{hirota2025mitigating,
+  abstract = {SUMMARY Image captioning models are known to perpetuate and amplify harmful societal bias in the training set. In this work, we aim to mitigate such gender bias in image captioning models. While prior work has addressed this problem by forcing models to focus on people to reduce gender misclassification, it conversely generates gender-stereotypical words at the expense of predicting the correct gender. From this observation, we hypothesize that there are two types of gender bias affecting image captioning models: 1) bias that exploits context to predict gender, and 2) bias in the probability of generating certain (often stereotypical) words because of gender. To mitigate both types of gender biases, we propose a framework, called LIBRA, that learns from synthetically biased samples to decrease both types of biases, correcting gender misclassification and changing gender-stereotypical words to more neutral ones.},
+  author = {Hirota, Yusuke and Nakashima, Yuta and Garcia, Noa},
+  title = {{Mitigating Gender Bias Amplification in Image Captioning}},
+  journal = {IEICE Transactions on Information and Systems},
+  volume = {108},
+  pages = {795--807},
+  year = {2025},
+  doi = {10.1587/transinf.2024edp7164},
+  url = {https://doi.org/10.1587/transinf.2024edp7164}
+}
+
+@article{hirota2025societal,
+  abstract = {SUMMARY We study societal bias amplification in image captioning. Image captioning models have been shown to perpetuate gender and racial biases, however, metrics to measure, quantify, and evaluate the societal bias in captions are not yet standardized. We provide a comprehensive study on the strengths and limitations of each metric, and propose LIC, a metric to study captioning bias amplification. We argue that, for image captioning, it is not enough to focus on the correct prediction of the protected attribute, and the whole context should be taken into account. We conduct extensive evaluation on traditional and state-of-the-art image captioning models, and surprisingly find that, by only focusing on the protected attribute prediction, bias mitigation models are unexpectedly amplifying bias.},
+  author = {Hirota, Yusuke and Nakashima, Yuta and Garcia, Noa},
+  title = {{Societal Bias in Image Captioning: Identifying and Measuring Bias Amplification}},
+  journal = {IEICE Transactions on Information and Systems},
+  volume = {108},
+  pages = {784--794},
+  year = {2025},
+  doi = {10.1587/transinf.2024edp7116},
+  url = {https://doi.org/10.1587/transinf.2024edp7116}
+}
+
+@article{kushioka2024deep,
+  abstract = {Locomotive Syndrome (LS) is defined by decreased walking and standing abilities due to musculoskeletal issues. Early diagnosis is vital as LS can be reversed with appropriate intervention. Although diagnosing LS using standardized charts is straightforward, the labor-intensive and time-consuming nature of the process limits its widespread implementation. To address this, we introduced a Deep Learning (DL)-based computer vision model that employs OpenPose for pose estimation and MS-G3D for spatial-temporal graph analysis. This model objectively assesses gait patterns through single-camera video captures, offering a novel and efficient method for LS prediction and analysis. Our model was trained and validated using a dataset of 186 walking videos, plus 65 additional videos for external validation. The model achieved an average sensitivity of 0.86, demonstrating high effectiveness in identifying individuals with LS. The model’s positive predictive value was 0.85, affirming its reliable LS detection, and it reached an overall accuracy rate of 0.77. External validation using an independent dataset confirmed strong generalizability with an Area Under the Curve of 0.75. Although the model accurately diagnosed LS cases, it was less precise in identifying non-LS cases. This study pioneers in diagnosing LS using computer vision technology for pose estimation. Our accessible, non-invasive model serves as a tool that can accurately diagnose the labor-intensive LS tests using only visual assessments, streamlining LS detection and expediting treatment initiation. This significantly improves patient outcomes and marks a crucial advancement in digital health, addressing key challenges in management and care of LS.},
+  author = {Kushioka, Junichi and Tada, Satoru and Takemura, Noriko and Fujimoto, Taku and Nagahara, Hajime and Onoe, Masahiko and Yamada, Keiko and Navarro-Ramirez, Rodrigo and Oda, Takenori and Mochizuki, Hideki and Nakata, Ken and Okada, Seiji and Moriguchi, Yu},
+  title = {{Deep learning-based screening for locomotive syndrome using single-camera walking video: Development and validation study}},
+  journal = {PLOS Digital Health},
+  volume = {3},
+  number = {11},
+  pages = {e0000668--e0000668},
+  month = {November},
+  year = {2024},
+  doi = {10.1371/journal.pdig.0000668},
+  url = {https://doi.org/10.1371/journal.pdig.0000668}
+}
+
+@article{chen2024learning,
+  abstract = {Is learning more knowledge always better for vision-and-language models? In this paper, we study knowledge transferability in multi-modal tasks. The current tendency in machine learning is to assume that by joining multiple datasets from different tasks, their overall performance improves. However, we show that not all knowledge transfers well or has a positive impact on related tasks, even when they share a common goal. We conducted an exhaustive analysis based on hundreds of cross-experiments on twelve vision-and-language tasks categorized into four groups. While tasks in the same group are prone to improve each other, results show that this is not always the case. In addition, other factors, such as dataset size or the pre-training stage, may have a great impact on how well the knowledge is transferred.},
+  author = {Chen, Tian-Wei and Garcia, Noa and Otani, Mayu and Chu, Chen-Hui and Nakashima, Yuta and Nagahara, Hajime},
+  title = {{Learning More May Not Be Better: Knowledge Transferability in Vision-and-Language Tasks}},
+  journal = {Journal of Imaging},
+  volume = {10},
+  number = {12},
+  pages = {300--300},
+  month = {November},
+  year = {2024},
+  doi = {10.3390/jimaging10120300},
+  url = {https://doi.org/10.3390/jimaging10120300}
+}
+
+@inproceedings{tanabe2024development,
+  abstract = {We performed machine learning using spectrum analysis and power spectra of electroencephalograms (EEGs) of patients with mild cognitive impairment (MCI). Spectrum analysis was performed on the EEGs of MCI patients and healthy individuals, and the power spectrum values of the two groups were calculated and compared. Based on the power spectrum values of the theta and alpha bands, models for discriminating MCI patients were created using a support vector machine (SVM), and their accuracies were compared. In the spectrum analysis, the theta band showed significantly higher power spectrum values in the MCI group. In the comparison of the accuracies of SVM models, the model using the theta band showed higher values in parameters, such as accuracy rate. These results suggested that the power spectrum values of the theta band are useful for discriminating MCI patients.},
+  author = {Tanabe, Akifumi and Nakatani, Kyosuke and Harachi, Kento and Yamamoto, Yusuke and Muramatsu, Ayumi and Nagahara, Hajime and Takemura, Noriko and Shimojo, Shinji and Furihata, Daisuke and Mizuno-Matsumoto, Yuko and Kamae-Shigenobu, Kazue and Shinosaki, Kazuhiro},
+  title = {{Development of a Model for Discriminating Electroencephalograms of Patients with Mild Cognitive Impairment and Healthy Individuals Using a Support Vector Machine}},
+  booktitle = {Proceedings of the Joint 13th International Conference on Soft Computing and Intelligent Systems and 25th International Symposium on Advanced Intelligent Systems (SCIS\&ISIS)},
+  pages = {1--3},
+  month = {November},
+  year = {2024},
+  doi = {10.1109/SCISISIS61014.2024.10760062},
+  url = {https://doi.org/10.1109/SCISISIS61014.2024.10760062}
+}
+
 @inproceedings{hanafusa2026japanese,
   author = {Hanafusa, Kentaro and Manabe, Kota and Meda, Yuki and Maekawa, Daisuke and Kajiwara, Tomoyuki and Hayashi, Hideaki and Nakashima, Yuta and Nagahara, Hajime},
   title = {{A Japanese Dataset for Aspect-based Sentiment Polarity and Emotion Intensity Estimation}},
@@ -53,20 +753,21 @@
   pages={1-17},
   doi={10.1109/TAFFC.2026.3677401}}
 
-@inproceedings{nishimura2026cell-type,
+@inproceedings{nishimura2026celltype,
   abstract={Estimating slide- and patch-level gene expression profiles from pathology images enables rapid and low-cost molecular analysis with broad clinical impact. 
 Despite strong results, existing approaches treat gene expression as a mere slide- or spot-level signal and do not incorporate the fact that the measured expression arises from the aggregation of underlying cell-level expression.
 To explicitly introduce this missing cell-resolved guidance, we propose a Cell-type Prototype-informed Neural Network (CPNN) that leverages publicly available single-cell RNA-sequencing datasets. Since single-cell measurements are noisy and not paired with histology images, we first estimate cell-type prototypes—mean expression profiles that capture stable gene–gene co-variation patterns. CPNN then learns cell-type compositional weights directly from images and models the relationship between prototypes and observed bulk or spatial expression, providing a biologically grounded and structurally regularized prediction framework.
 We evaluate CPNN on three slide-level datasets and three patch-level spatial transcriptomics datasets. Across all settings, CPNN achieves the highest performance in terms of Spearman correlation. Moreover, by visualizing the inferred compositional weights, our framework provides interpretable insights into which cell types drive the predicted expression.
-The code will be made publicly available upon acceptance.
-The code is available at https://github.com/naivete5656/CPNN.},
+Code is publicly available at https://github.com/naivete5656/CPNN.},
   title={Cell-Type Prototype-Informed Neural Network for Gene Expression Estimation from Pathology Images},
-  author={Kazuya Nishimura, Ryoma Bise, Shinnosuke Matsuo, Haruka Hirose, Yasuhiro Kojima},
-  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2026}
+  author={Nishimura, Kazuya and Bise, Ryoma and Matsuo, Shinnosuke and Hirose, Haruka and Kojima, Yasuhiro},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month={June},
+  year={2026},
+  url={https://naivete5656.github.io/CPNN/}
 }
 
-@inproceedings{Tahara2026ISBI,
+@inproceedings{tahara2026bridge-density,
   abstract={High annotation costs are a significant barrier in time-lapse cell imaging, as cell density increases over time, leading to numerous adjoining and difficult-to-distinguish boundaries. Our work is based on the observation that sparse images,
 which are less costly to annotate, still contain local regions
 with cell densities comparable to those in dense data. We
@@ -83,28 +784,18 @@ on dense data, surpassing conventional methods. This code is
 available at https://github.com/Masashi-Tahara/Bridging-the-
 Density-Gap.},
   title={Bridging the Density Gap: Diffusion Model for Stepwise Generation of Dense Cell Images from Sparse Data},
-  author={Masashi Tahara, Kazuya Nishimura, Shumpei Takezaki, Ryoma Bise},
+  author={Tahara, Masashi and Nishimura, Kazuya and Takezaki, Shumpei and Bise, Ryoma},
   booktitle={Proceedings of IEEE International Symposium on Biomedical Imaging (ISBI)},
+  month={April},
   year={2026}
 }
 
 
-@article{deng2026point,
-abstract = {Automatic facial expression spotting, which aims to identify facial expression instances in untrimmed videos, is crucial for facial expression analysis. Existing methods primarily focus on fully-supervised learning and rely on costly, time-consuming temporal boundary annotations. In this paper, we investigate point-supervised facial expression spotting (P-FES), where only a single timestamp annotation per instance is required for training. We propose a unique two-branch framework for P-FES. First, to mitigate the limitation of hard pseudo-labeling, which often confuses neutral and expression frames with various intensities, we propose a Gaussian-based instance-adaptive intensity modeling (GIM) module to model instance-level expression intensity distribution for soft pseudo-labeling. By detecting the pseudo-apex frame around each point label, estimating the duration, and constructing an instance-level Gaussian distribution, GIM assigns soft pseudo-labels to expression frames for more reliable intensity supervision. The GIM module is incorporated into our framework to optimize the class-agnostic expression intensity branch. Second, we design a class-aware apex classification branch that distinguishes macro- and micro-expressions solely based on their pseudo-apex frames. During inference, the two branches work independently: the class-agnostic expression intensity branch generates expression proposals, while the class-aware apex-classification branch is responsible for macro- and micro-expression classification. Furthermore, we introduce an intensity-aware contrastive loss to enhance discriminative feature learning and suppress neutral noise by contrasting neutral frames with expression frames with various intensities. Extensive experiments on the SAMM-LV, CAS(ME)$^2$, and CAS(ME)$^3$ datasets demonstrate the effectiveness of our proposed framework.},
-author = {Deng, Yicheng and Hayashi, Hideaki and Nagahara, Hajime},
-doi = {10.1109/TBIOM.2026.3651893},
-journal = {IEEE Transactions on Biometrics, Behavior, and Identity Science},
-publisher = {IEEE},
-title = {{Point-Supervised Facial Expression Spotting with Gaussian-Based Instance-Adaptive Intensity Modeling}},
-url = {https://doi.org/10.1109/TBIOM.2026.3651893},
-year = {2026}
-}
-
 @inproceedings{shinoda2026biovita,
-  author    = {Risa Shinoda and Kaede Shiohara and Nakamasa Inoue and Kuniaki Saito and Hiroaki Santo and Fumio Okura},
-  title     = {{BioVITA}: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year      = {2026}
+  author    = {Risa Shinoda and Kaede Shiohara and Nakamasa Inoue and Kuniaki Saito and Hiroaki Santo and Fumio Okura},
+  title     = {{BioVITA}: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2026}
 }
 
 @inproceedings{nishimura2025learning,
@@ -131,15 +822,6 @@ selection problem into a differentiable top-k selection problem. The experiments
   booktitle={Proceedings of the {AAAI} Conference on Artificial Intelligence},
   year={2026}
 }
-
-@inproceedings{Nishimura2026CellTypePN,
-  title = {Cell-Type Prototype-Informed Neural Network for Gene Expression Estimation from Pathology Images},
-  author = {Nishimura, Kazuya and Bise, Ryoma and Matsuo, Shinnosuke and Hirose, Haruka and Kojima, Yasuhiro},
-  booktitle = {Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year = {2026},
-  abstract = {Estimating slide- and patch-level gene expression profiles from pathology images enables rapid and low-cost molecular analysis with broad clinical impact. Despite strong results, existing approaches treat gene expression as a mere slide- or spot-level signal and do not incorporate the fact that the measured expression arises from the aggregation of underlying cell-level expression. To explicitly introduce this missing cell-resolved guidance, we propose a Cell-type Prototype-informed Neural Network (CPNN) that leverages publicly available single-cell RNA-sequencing datasets. Since single-cell measurements are noisy and not paired with histology images, we first estimate cell-type prototypes-mean expression profiles that reflect stable gene-gene co-variation patterns. CPNN then learns cell-type compositional weights directly from images and models the relationship between prototypes and observed bulk or spatial expression, providing a biologically grounded and structurally regularized prediction framework. We evaluate CPNN on three slide-level datasets and three patch-level spatial transcriptomics datasets. Across all settings, CPNN achieves the highest performance in terms of Spearman correlation. Moreover, by visualizing the inferred compositional weights, our framework provides interpretable insights into which cell types drive the predicted expression. Code is publicly available at https://github.com/naivete5656/CPNN.}
-}
-
 
 @article{hayashi2024hybrid,
   title={A Hybrid of Generative and Discriminative Models Based on the Gaussian-coupled Softmax Layer},
@@ -404,7 +1086,7 @@ url={https://www.mdpi.com/1424-8220/23/17/7535}
 }
 
 @article{wang2023realtime,
-    author = {Bowen Wang and Liangzhi Li and \underline{Yuta Nakashima} and Ryo Kawasaki and Hajime Nagahara},
+    author = {Bowen Wang and Liangzhi Li and Yuta Nakashima and Ryo Kawasaki and Hajime Nagahara},
     title = {Real-time estimation of the remaining surgery duration for cataract surgery using deep convolutional neural networks and long short-term memory},
     journal = {BMC Medical Informatics and Decision Making},
     year = {2023},
@@ -418,7 +1100,7 @@ url={https://www.mdpi.com/1424-8220/23/17/7535}
 }
 
 @article{yang2023multi,
-author = {Zekun Yang and \underline{Yuta Nakashima} and Haruo Takemura},
+author = {Zekun Yang and Yuta Nakashima and Haruo Takemura},
 title = {Multi-modal humor segment prediction in video},
 journal = {Multimedia Systems},
 year = {2023},
@@ -741,7 +1423,7 @@ booktitle = {Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognitio
 note = {9 pages},
 year = {2022},
 month = 6,
-url = {https://openaccess.thecvf.com/content/CVPR2022/papers/Otani_Optimal_Correction_Cost_for_Object_Detection_Evaluation_CVPR_2022_paper.pdf}
+url = {https://openaccess.thecvf.com/content/CVPR2022/papers/Otani_Optimal_Correction_Cost_for_Object_Detection_Evaluation_CVPR_2022_paper.pdf},
 abstract = {Mean Average Precision (mAP) is the primary evaluation measure for object detection. Although object detection has a broad range of applications, mAP evaluates detectors in terms of the performance of ranked instance retrieval. Such the assumption for the evaluation task does not suit some downstream tasks. To alleviate the gap between downstream tasks and the evaluation scenario, we propose Optimal Correction Cost (OC-cost), which assesses detection accuracy at image level. OC-cost computes the cost of correcting detections to ground truths as a measure of accuracy. The cost is obtained by solving an optimal transportation problem between the detections and the ground truths. Unlike mAP, OC-cost is designed to penalize false positive and false negative detections properly, and every image in a dataset is treated equally. Our experimental result validates that OC-cost has better agreement with human preference than a ranking-based measure, i.e., mAP for a single image. We also show that detectors' rankings by OC-cost are more consistent on different data splits than mAP. Our goal is not to replace mAP with OC-cost but provide an additional tool to evaluate detectors from another aspect. To help future researchers and developers choose a target measure, we provide a series of experiments to clarify how mAP and OC-cost differ.},
 }
 
@@ -854,7 +1536,7 @@ booktitle = {Proc.~IEEE/CVF International Conference on Computer Vision Workshop
 month = 10,
 year = {2021},
 pages = {3154--3157},
-url = {https://openaccess.thecvf.com/content/ICCV2021W/CLVL/papers/Hirota_Visual_Question_Answering_With_Textual_Representations_for_Images_ICCVW_2021_paper.pdf}
+url = {https://openaccess.thecvf.com/content/ICCV2021W/CLVL/papers/Hirota_Visual_Question_Answering_With_Textual_Representations_for_Images_ICCVW_2021_paper.pdf},
 abstract = {How far can we go with textual representations for understanding pictures? Deep visual features extracted by object recognition models are prevailing used in multiple tasks, and especially in visual question answering (VQA). However, conventional deep visual features may struggle to convey all the details in an image as we humans do. Meanwhile, with recent language models' progress, descriptive text may be an alternative to this problem. This paper delves into the effectiveness of textual representations for image understanding in the specific context of VQA.},
 }
 
@@ -1041,7 +1723,7 @@ title = {Uncovering hidden challenges in query-based video moment retrieval},
 abstract = { The query-based moment retrieval is a problem of localising a specific clip from an untrimmed video according a query sentence. This is a challenging task that requires interpretation of both the natural language query and the video content. Like in many other areas in computer vision and machine learning, the progress in query-based mo- ment retrieval is heavily driven by the benchmark datasets and, therefore, their quality has significant impact on the field. In this paper, we present a series of experiments as- sessing how well the benchmark results reflect the true progress in solving the moment retrieval task. Our results indicate substantial biases in the popular datasets and unex- pected behaviour of the state-of-the-art models. Moreover, we present new sanity check experiments and approaches for visualising the results. Finally, we suggest possible di- rections to improve the temporal sentence grounding in the future.},
 booktitle = {Proceedings - British Machine Vision Conference},
 year = {2020},
-month = {September}
+month = {September},
 url = {https://www.bmvc2020-conference.com/assets/papers/0306.pdf}
 }
 
@@ -1225,7 +1907,7 @@ booktitle = {Proceedings - European Conference on Computer Vision Workshops},
 month = {August},
 year = {2020},
 title = {A dataset and baselines for visual question answering on art},
-abstract = {nswering questions related to art pieces (paintings) is a difficult task, as it implies the understanding of not only the visual information that is shown in the picture, but also the contextual knowledge that is acquired through the study of the history of art. In this work, we introduce our first attempt towards building a new dataset, coined AQUA (Art QUestion Answering). The question-answer (QA) pairs are automatically generated using state-of-the-art question generation methods based on paintings and comments provided in an existing art understanding dataset. The QA pairs are cleansed by crowdsourcing workers with respect to their grammatical correctness, answerability, and answers' correctness. Our dataset inherently consists of visual (painting-based) and knowledge (comment-based) questions. We also present a two-branch model as baseline, where the visual and knowledge questions are handled independently. We extensively compare our baseline model against the state-of-the-art models for question answering, and we provide a comprehensive study about the challenges and potential future directions for visual question answering on art.}
+abstract = {nswering questions related to art pieces (paintings) is a difficult task, as it implies the understanding of not only the visual information that is shown in the picture, but also the contextual knowledge that is acquired through the study of the history of art. In this work, we introduce our first attempt towards building a new dataset, coined AQUA (Art QUestion Answering). The question-answer (QA) pairs are automatically generated using state-of-the-art question generation methods based on paintings and comments provided in an existing art understanding dataset. The QA pairs are cleansed by crowdsourcing workers with respect to their grammatical correctness, answerability, and answers' correctness. Our dataset inherently consists of visual (painting-based) and knowledge (comment-based) questions. We also present a two-branch model as baseline, where the visual and knowledge questions are handled independently. We extensively compare our baseline model against the state-of-the-art models for question answering, and we provide a comprehensive study about the challenges and potential future directions for visual question answering on art.},
 url = {https://arxiv.org/abs/2008.12520},
 }
 

@@ -26,4 +26,6 @@ user_groups:
 - Students
 ---
 ### Contact
-- email: naoki.deguchi@is.ids
+- email: naoki.deguchi@is.ids.
+
+Please add `osaka-u.ac.jp` to complete email address

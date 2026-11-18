@@ -26,4 +26,6 @@ user_groups:
 - 学生
 ---
 ### 連絡先
-- email: takumi.kiura@is.ids
+- email: takumi.kiura@is.ids.
+
+Please add `osaka-u.ac.jp` to complete email address

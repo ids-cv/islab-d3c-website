@@ -26,4 +26,6 @@ user_groups:
 - Students
 ---
 ### Contact
-- email: ikeda.jun@ist
+- email: ikeda.jun@ist.
+
+Please add `osaka-u.ac.jp` to complete email address
