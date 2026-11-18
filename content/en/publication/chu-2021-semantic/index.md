@@ -8,7 +8,7 @@ authors:
 - Noa Garcia
 - Yuta Nakashima
 date: '2021-12-01'
-publishDate: '2026-07-23T03:38:47.720759Z'
+publishDate: '2026-11-18T01:25:30.559914Z'
 publication_types:
 - article-journal
 publication: '*Computer Vision and Image Understanding*'

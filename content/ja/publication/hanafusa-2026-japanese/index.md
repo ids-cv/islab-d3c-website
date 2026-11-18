@@ -11,7 +11,7 @@ authors:
 - Yuta Nakashima
 - Hajime Nagahara
 date: '2026-05-01'
-publishDate: '2026-07-23T03:38:49.286863Z'
+publishDate: '2026-11-18T01:25:32.052471Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the 15th Language Resources and Evaluation Conference

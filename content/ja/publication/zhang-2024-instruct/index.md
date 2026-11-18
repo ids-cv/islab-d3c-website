@@ -7,7 +7,7 @@ authors:
 - Yuta Nakashima
 - Hajime Nagahara
 date: '2024-01-01'
-publishDate: '2026-07-23T03:38:50.667740Z'
+publishDate: '2026-11-18T01:25:32.245404Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the IEEE/CVF Winter Conference on Applications of Computer

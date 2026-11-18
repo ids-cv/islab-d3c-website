@@ -1,0 +1,28 @@
+---
+title: 'Stable Diffusion Exposed: Gender Bias from Prompt to Image'
+authors:
+- Yan-Kun Wu
+- Yuta Nakashima
+- Noa Garcia
+date: '2025-02-01'
+publishDate: '2026-11-18T01:25:32.007110Z'
+publication_types:
+- paper-conference
+publication: '*Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES)*'
+abstract: Several studies have raised awareness about social biases in image generative
+  models, demonstrating their predisposition towards stereotypes and imbalances. This
+  paper contributes to this growing body of research by introducing an evaluation
+  protocol that analyzes the impact of gender indicators at every step of the generation
+  process on Stable Diffusion images. Leveraging insights from prior work, we explore
+  how gender indicators not only affect gender presentation but also the representation
+  of objects and layouts within the generated images. Our findings include the existence
+  of differences in the depiction of objects, such as instruments tailored for specific
+  genders, and shifts in overall layouts. We also reveal that neutral prompts tend
+  to produce images more aligned with masculine prompts than their feminine counterparts.
+  We further explore where bias originates through representational disparities and
+  how it manifests in the images via prompt-image dependencies, and provide recommendations
+  for developers and users to mitigate potential bias in image generation.
+links:
+- name: URL
+  url: https://arxiv.org/abs/2312.03027
+---

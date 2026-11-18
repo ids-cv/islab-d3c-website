@@ -8,7 +8,7 @@ authors:
 - Jun Miyake
 - Mamoru Hashimoto
 date: '2020-07-01'
-publishDate: '2026-07-23T03:38:48.054148Z'
+publishDate: '2026-11-18T01:25:30.743809Z'
 publication_types:
 - paper-conference
 publication: '*Biomolecules*'

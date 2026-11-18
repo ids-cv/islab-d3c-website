@@ -8,7 +8,7 @@ authors:
 - Yukinobu Sugiyama
 - Rin-ichiro Taniguchi
 date: '2019-01-01'
-publishDate: '2026-07-23T03:38:47.600610Z'
+publishDate: '2026-11-18T01:25:30.482775Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Computational Imaging*'

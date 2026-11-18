@@ -8,7 +8,7 @@ authors:
 - Yuta Nakashima
 - Mianxiong Dong
 date: '2022-01-01'
-publishDate: '2026-07-23T03:38:47.670682Z'
+publishDate: '2026-11-18T01:25:30.508119Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the 2022 International Conference on Multimedia Retrieval*'

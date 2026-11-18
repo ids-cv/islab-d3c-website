@@ -10,7 +10,7 @@ authors:
 - Janne Heikkilä
 - Shin’ichi Satoh
 date: '2023-06-01'
-publishDate: '2026-07-23T03:38:50.734502Z'
+publishDate: '2026-11-18T01:25:32.321289Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition

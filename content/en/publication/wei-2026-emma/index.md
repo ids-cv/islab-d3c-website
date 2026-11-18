@@ -1,0 +1,35 @@
+---
+title: 'EMMA: Concept Erasure Benchmark with Comprehensive Semantic Metrics and Diverse
+  Categories'
+authors:
+- Lu Wei
+- Yuta Nakashima
+- Noa Garcia
+date: '2026-01-01'
+publishDate: '2026-11-18T01:25:30.077647Z'
+publication_types:
+- paper-conference
+publication: '*Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)*'
+abstract: The widespread adoption of text-to-image (T2I) generation has raised concerns
+  about privacy, bias, and copyright violations. Concept erasure techniques offer
+  a promising solution by selectively removing undesired concepts from pre-trained
+  models without requiring full retraining. However, these methods are often evaluated
+  on a limited set of concepts, relying on overly simplistic and direct prompts. To
+  test the boundaries of concept erasure techniques, and assess whether they truly
+  remove targeted concepts from model representations, we introduce EMMA, a benchmark
+  that evaluates five key dimensions of concept erasure over 13 metrics. EMMA goes
+  beyond standard metrics like image quality and time efficiency, testing robustness
+  under challenging conditions, including indirect descriptions, visually similar
+  non-target concepts, and potential gender and ethnicity bias, providing a socially
+  aware analysis of method behavior. Using EMMA, we analyze five concept erasure methods
+  across five domains (objects, celebrities, art styles, NSFW, and copyright). Our
+  results show that existing methods struggle with implicit prompts (i.e., generating
+  the erased concept when it is indirectly referenced) and visually similar non-target
+  concepts (i.e., failing to generate non-target concepts resembling the erased one),
+  while some amplify gender and ethnicity bias compared to the original model. Code
+  and prompts are available at https://github.com/lobsterlulu/EMMA.
+links:
+- name: URL
+  url: https://arxiv.org/abs/2512.17320
+---

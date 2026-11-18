@@ -4,11 +4,11 @@ title: Real-time estimation of the remaining surgery duration for cataract surge
 authors:
 - Bowen Wang
 - Liangzhi Li
-- n̆derlineYuta Nakashima
+- Yuta Nakashima
 - Ryo Kawasaki
 - Hajime Nagahara
 date: '2023-05-01'
-publishDate: '2023-11-27T07:32:34.699353Z'
+publishDate: '2026-11-18T01:25:32.286182Z'
 publication_types:
 - article-journal
 publication: '*BMC Medical Informatics and Decision Making*'

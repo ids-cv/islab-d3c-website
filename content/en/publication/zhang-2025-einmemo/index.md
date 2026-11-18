@@ -1,0 +1,33 @@
+---
+title: 'E-InMeMo: Enhanced Prompting for Visual In-Context Learning'
+authors:
+- Jiahao Zhang
+- Bo-Wen Wang
+- Hong Liu
+- Liang-Zhi Li
+- Yuta Nakashima
+- Hajime Nagahara
+date: '2025-07-01'
+publishDate: '2026-11-18T01:25:30.123404Z'
+publication_types:
+- article-journal
+publication: '*Journal of Imaging*'
+doi: 10.3390/jimaging11070232
+abstract: Large-scale models trained on extensive datasets have become the standard
+  due to their strong generalizability across diverse tasks. In-context learning (ICL),
+  widely used in natural language processing, leverages these models by providing
+  task-specific prompts without modifying their parameters. This paradigm is increasingly
+  being adapted for computer vision, where models receive an input–output image pair,
+  known as an in-context pair, alongside a query image to illustrate the desired output.
+  However, the success of visual ICL largely hinges on the quality of these prompts.
+  To address this, we propose Enhanced Instruct Me More (E-InMeMo), a novel approach
+  that incorporates learnable perturbations into in-context pairs to optimize prompting.
+  Through extensive experiments on standard vision tasks, E-InMeMo demonstrates superior
+  performance over existing state-of-the-art methods. Notably, it improves mIoU scores
+  by 7.99 for foreground segmentation and by 17.04 for single object detection when
+  compared to the baseline without learnable prompts. These results highlight E-InMeMo
+  as a lightweight yet effective strategy for enhancing visual ICL.
+links:
+- name: URL
+  url: https://doi.org/10.3390/jimaging11070232
+---

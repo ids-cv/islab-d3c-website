@@ -6,7 +6,7 @@ authors:
 - 梶原 智之
 - 長原 一
 date: '2019-12-01'
-publishDate: '2026-07-23T03:38:51.460100Z'
+publishDate: '2026-11-18T01:25:32.722979Z'
 publication_types:
 - article-journal
 publication: '*西洋史学*'

@@ -1,0 +1,47 @@
+---
+title: Built year prediction of buddha face with heterogeneous label modeled as probabilistic
+  distribution
+authors:
+- Yiming Qian
+- Cheikh Brahim El Vaigh
+- Yuta Nakashima
+- Benjamin Renoust
+- Hajime Nagahara
+- Yutaka Fujioka
+date: '2025-04-01'
+publishDate: '2026-11-18T01:25:31.966242Z'
+publication_types:
+- article-journal
+publication: '*Multimedia Tools and Applications*'
+doi: 10.1007/s11042-025-20784-4
+abstract: 'Analysis of cultural heritages, particularly their construction years,
+  provides new insights into human history. However, due to natural disasters, wars,
+  material deterioration, and human errors, records documenting the construction years
+  of many artifacts have often been lost. Historians and experts can estimate construction
+  years within specific ranges using chemical-based analysis technologies or extensive
+  historical research. Given the vast number of collected artifacts, applying these
+  conventional methods to every artifact is impractical. To address this challenge,
+  we developed a deep neural network model designed for Buddha statues to estimate
+  an artifact’s construction year from its image. One major challenge in this task
+  is the heterogeneity of the labels: the training samples include both precise construction
+  years and possible ranges (e.g., a dynasty or a century) estimated by historians.
+  To unify these heterogeneous labels during training, we represent them as probabilistic
+  distributions. In our previous work Qian et al. (2021), we assumed that the ambiguity
+  in heterogeneous construction year labels followed a Gaussian distribution, assigning
+  the highest likelihood to the midpoint of the designated time range. However, this
+  assumption does not always hold. In this paper, we propose representing heterogeneous
+  construction year labels as a uniform distribution, assigning equal probability
+  to all points within the designated time range. Based on this label representation,
+  we designed a semi-supervised learning loss function to leverage both labeled and
+  unlabeled samples during training. Our experimental results demonstrate that our
+  method achieves a mean absolute error of 34.3 years on a test set consisting of
+  Buddha statues constructed between 400 and 1403. These results are further analyzed
+  in two ways. First, we compared our model’s performance to the image quality BRISQUE
+  score, revealing a correlation between higher image quality and lower prediction
+  error rates. Second, we validated our predictions with experts, assessing the level
+  of agreement with our model, the challenges in determining construction years, and
+  identifying features of interest in the artifacts.'
+links:
+- name: URL
+  url: https://doi.org/10.1007/s11042-025-20784-4
+---
